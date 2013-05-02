@@ -1,0 +1,191 @@
+HEADER                                            05-MAY-10   3MWD              
+TITLE     TRUNCATED HUMAN ATP-CITRATE LYASE WITH CITRATE BOUND                  
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: TRUNCATED HUMAN ATP-CITRATE LYASE (UNP RESIDUES 1-425);    
+COMPND   5 SYNONYM: ATP-CITRATE (PRO-S-)-LYASE, CITRATE CLEAVAGE ENZYME;        
+COMPND   6 EC: 2.3.3.8;                                                         
+COMPND   7 ENGINEERED: YES;                                                     
+COMPND   8 MOL_ID: 2;                                                           
+COMPND   9 MOLECULE:                                                            
+COMPND  10 CHAIN: B;                                                            
+COMPND  11 FRAGMENT: TRUNCATED HUMAN ATP-CITRATE LYASE (UNP RESIDUES 487-820);  
+COMPND  12 SYNONYM: ATP-CITRATE (PRO-S-)-LYASE, CITRATE CLEAVAGE ENZYME;        
+COMPND  13 EC: 2.3.3.8;                                                         
+COMPND  14 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 GENE: ACLY;                                                          
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET42B+;                                  
+SOURCE  11 MOL_ID: 2;                                                           
+SOURCE  12 ORGANISM_SCIENTIFIC:                                                 
+SOURCE  13 ORGANISM_COMMON:                                                     
+SOURCE  14 ORGANISM_TAXID: 9606;                                                
+SOURCE  15 GENE: ACLY;                                                          
+SOURCE  16 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  17 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE  18 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE  19 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  20 EXPRESSION_SYSTEM_PLASMID: PET42B+                                   
+KEYWDS    ATP-GRASP, PHOSPHOHISTIDINE, ORGANIC ACID, LYASE, TRANSFERASE         
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    M.E.FRASER,T.SUN                                                      
+REVDAT   3   15-SEP-10 3MWD    1       JRNL                                     
+REVDAT   2   01-SEP-10 3MWD    1       JRNL                                     
+REVDAT   1   16-JUN-10 3MWD    0                                                
+JRNL        AUTH   T.SUN,K.HAYAKAWA,K.S.BATEMAN,M.E.FRASER                      
+JRNL        TITL   IDENTIFICATION OF THE CITRATE-BINDING SITE OF HUMAN          
+JRNL        TITL 2 ATP-CITRATE LYASE USING X-RAY CRYSTALLOGRAPHY.               
+JRNL        REF    J.BIOL.CHEM.                  V. 285 27418 2010              
+JRNL        REFN                   ISSN 0021-9258                               
+JRNL        PMID   20558738                                                     
+JRNL        DOI    10.1074/JBC.M109.078667                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.1_357)                    
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
+REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
+REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
+REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
+REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
+REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
+REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
+REMARK   3               : ZWART                                                
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : ML                                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.10                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 44.82                          
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 0.750                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 99.9                           
+REMARK   3   NUMBER OF REFLECTIONS             : 54277                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.194                           
+REMARK   3   R VALUE            (WORKING SET) : 0.191                           
+REMARK   3   FREE R VALUE                     : 0.229                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.740                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 6072                            
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
+REMARK   3   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE        
+REMARK   3     1 44.8291 -  6.5187    1.00     3311   215  0.1691 0.2028        
+REMARK   3     2  6.5187 -  5.1766    1.00     3301   219  0.1552 0.2253        
+REMARK   3     3  5.1766 -  4.5229    1.00     3321   226  0.1337 0.1571        
+REMARK   3     4  4.5229 -  4.1097    1.00     3291   212  0.1361 0.1789        
+REMARK   3     5  4.1097 -  3.8153    1.00     3325   217  0.1490 0.1713        
+REMARK   3     6  3.8153 -  3.5905    1.00     3275   216  0.1524 0.1805        
+REMARK   3     7  3.5905 -  3.4107    1.00     3322   226  0.1685 0.2049        
+REMARK   3     8  3.4107 -  3.2623    1.00     3315   223  0.1700 0.1973        
+REMARK   3     9  3.2623 -  3.1367    1.00     3300   219  0.1926 0.2299        
+REMARK   3    10  3.1367 -  3.0285    1.00     3315   215  0.1985 0.2143        
+REMARK   3    11  3.0285 -  2.9338    1.00     3303   229  0.2066 0.2564        
+REMARK   3    12  2.9338 -  2.8500    1.00     3314   204  0.2119 0.2739        
+REMARK   3    13  2.8500 -  2.7750    1.00     3288   227  0.2140 0.2644        
+REMARK   3    14  2.7750 -  2.7073    1.00     3351   220  0.2183 0.2458        
+REMARK   3    15  2.7073 -  2.6457    1.00     3291   216  0.2131 0.2503        
+REMARK   3    16  2.6457 -  2.5894    1.00     3309   228  0.2154 0.2620        
+REMARK   3    17  2.5894 -  2.5377    1.00     3287   228  0.2170 0.2747        
+REMARK   3    18  2.5377 -  2.4898    1.00     3273   199  0.2185 0.2684        
+REMARK   3    19  2.4898 -  2.4453    1.00     3393   159  0.2174 0.2565        
+REMARK   3    20  2.4453 -  2.4039    1.00     3418   189  0.2192 0.2574        
+REMARK   3    21  2.4039 -  2.3651    1.00     3212   179  0.2303 0.2789        
+REMARK   3    22  2.3651 -  2.3287    1.00     3446   155  0.2337 0.2808        
+REMARK   3    23  2.3287 -  2.2945    1.00     3324   186  0.2385 0.2885        
+REMARK   3    24  2.2945 -  2.2621    1.00     3354   189  0.2418 0.2933        
+REMARK   3    25  2.2621 -  2.2316    1.00     3350   169  0.2481 0.2971        
+REMARK   3    26  2.2316 -  2.2026    1.00     3301   174  0.2632 0.2960        
+REMARK   3    27  2.2026 -  2.1751    1.00     3377   175  0.2719 0.3025        
+REMARK   3    28  2.1751 -  2.1488    1.00     3336   195  0.2628 0.3147        
+REMARK   3    29  2.1488 -  2.1239    1.00     3346   174  0.2700 0.2912        
+REMARK   3    30  2.1239 -  2.1000    1.00     3360   189  0.3050 0.3467        
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL                       
+REMARK   3   SOLVENT RADIUS     : 1.11                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.90                                          
+REMARK   3   K_SOL              : 0.38                                          
+REMARK   3   B_SOL              : 36.46                                         
+REMARK   3                                                                      
+REMARK   3  ERROR ESTIMATES.                                                    
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.310            
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 24.740           
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -2.15390                                             
+REMARK   3    B22 (A**2) : 6.33090                                              
+REMARK   3    B33 (A**2) : -4.17700                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 3.02350                                              
+REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3                                                                      
+REMARK   3  TWINNING INFORMATION.                                               
+REMARK   3   FRACTION: NULL                                                     
+REMARK   3   OPERATOR: NULL                                                     
+REMARK   3                                                                      
+REMARK   3  DEVIATIONS FROM IDEAL VALUES.                                       
+REMARK   3                 RMSD          COUNT                                  
+REMARK   3   BOND      :  0.007           5896                                  
+REMARK   3   ANGLE     :  1.058           7991                                  
+REMARK   3   CHIRALITY :  0.069            895                                  
+REMARK   3   PLANARITY :  0.004           1024                                  
+REMARK   3   DIHEDRAL  : 12.686           2187                                  
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  NCS DETAILS                                                         
+REMARK   3   NUMBER OF NCS GROUPS : NULL                                        
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+REMARK jmolscript: select ([CIT]1:A.O1 or [CIT]1:A.C1);                         
+REMARK jmolscript: bondorder 2; subset;                                         
+REMARK jmolscript: select ([CIT]1:A.O3 or [CIT]1:A.C5);                         
+REMARK jmolscript: bondorder 2; subset;                                         
+REMARK jmolscript: select ([CIT]1:A.O5 or [CIT]1:A.C6);                         
+REMARK jmolscript: bondorder 2; subset;                                         
+CRYST1  169.197   61.704  109.421  90.00 125.00  90.00 C 1 2 1       4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.005910  0.000000  0.004138        0.00000                         
+SCALE2      0.000000  0.016206  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.011157        0.00000                         
+HETATM    1  C1  CIT A   1       0.412  -0.006   2.479  1.00 40.91           C  
+HETATM    2  O1  CIT A   1      -0.446   0.835   2.367  1.00 36.39           O  
+HETATM    3  O2  CIT A   1       0.812  -0.4     3.697  1.00 42.97           O  
+HETATM    4  C2  CIT A   1       1.032  -0.616   1.249  1.00 36.86           C  
+HETATM    5  C3  CIT A   1       0.402   0.002   0.0    1.00 47.53           C  
+HETATM    6  O7  CIT A   1       0.631   1.412   0.0    1.00 46.09           O  
+HETATM    7  C4  CIT A   1       1.032  -0.616  -1.249  1.00 42.19           C  
+HETATM    8  C5  CIT A   1       0.412  -0.006  -2.479  1.00 52.18           C  
+HETATM    9  O3  CIT A   1      -0.446   0.835  -2.367  1.00 54.35           O  
+HETATM   10  O4  CIT A   1       0.812  -0.4    -3.697  1.00 56.55           O  
+HETATM   11  C6  CIT A   1      -1.08   -0.265   0.0    1.00 47.44           C  
+HETATM   12  O5  CIT A   1      -1.859   0.656   0.0    1.00 40.72           O  
+HETATM   13  O6  CIT A   1      -1.533  -1.528   0.0    1.00 42.29           O  
+HETATM   14  HO2 CIT A   1       0.414  -0.009   4.488  0.00 0.00            H  
+HETATM   15  H21 CIT A   1       2.105  -0.422   1.249  0.00 0.00            H  
+HETATM   16  H22 CIT A   1       0.858  -1.692   1.249  0.00 0.00            H  
+HETATM   17  HO7 CIT A   1       1.59    1.54    0.0    0.00 0.00            H  
+HETATM   18  H41 CIT A   1       2.105  -0.422  -1.249  0.00 0.00            H  
+HETATM   19  H42 CIT A   1       0.858  -1.692  -1.249  0.00 0.00            H  
+HETATM   20  HO4 CIT A   1       0.414  -0.009  -4.488  0.00 0.00            H  
+HETATM   21  HO6 CIT A   1      -2.485  -1.701   0.0    0.00 0.00            H  
+MASTER      294    0   17   29   35    0    3    6 6110    2  175   59          
+END                                                                             

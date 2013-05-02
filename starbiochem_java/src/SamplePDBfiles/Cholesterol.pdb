@@ -1,0 +1,160 @@
+HEADER                                            14-MAY-08   3D4S              
+TITLE     CHOLESTEROL BOUND FORM OF HUMAN BETA2 ADRENERGIC RECEPTOR.            
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: BETA-2 ADRENOCEPTOR, BETA-2 ADRENORECEPTOR / LYSIS          
+COMPND   5 PROTEIN, MURAMIDASE, ENDOLYSIN;                                      
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MUTATION: YES                                                        
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_TAXID: 9606;                                                
+SOURCE   4 GENE: ADRB2, ADRB2R, B2AR / E;                                       
+SOURCE   5 EXPRESSION_SYSTEM: SPODOPTERA FRUGIPERDA;                            
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 7108;                                       
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS;                          
+SOURCE   8 EXPRESSION_SYSTEM_PLASMID: PFASTBAC                                  
+KEYWDS    GPCR, MEMBRANE PROTEIN, LYSOZYME, FUSION, ADRENERGIC,                 
+KEYWDS   2 TIMOLOL, G-PROTEIN COUPLED RECEPTOR, GLYCOPROTEIN,                   
+KEYWDS   3 LIPOPROTEIN, PALMITATE, PHOSPHOPROTEIN, POLYMORPHISM,                
+KEYWDS   4 RECEPTOR, TRANSDUCER, TRANSMEMBRANE, STRUCTURAL GENOMICS,            
+KEYWDS   5 PSI-2, PROTEIN STRUCTURE INITIATIVE, ACCELERATED                     
+KEYWDS   6 TECHNOLOGIES CENTER FOR GENE TO 3D STRUCTURE, ATCG3D                 
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    M.A.HANSON,V.CHEREZOV,C.B.ROTH,M.T.GRIFFITH,V-P.JAAKOLA,              
+AUTHOR   2 E.Y.T.CHIEN,J.VELASQUEZ,P.KUHN,R.C.STEVENS,ACCELERATED               
+AUTHOR   3 TECHNOLOGIES CENTER FOR GENE TO 3D STRUCTURE (ATCG3D)                
+REVDAT   4   01-SEP-09 3D4S    1       AUTHOR KEYWDS TITLE  REMARK              
+REVDAT   3   24-FEB-09 3D4S    1       VERSN                                    
+REVDAT   2   01-JUL-08 3D4S    1       JRNL                                     
+REVDAT   1   17-JUN-08 3D4S    0                                                
+JRNL        AUTH   M.A.HANSON,V.CHEREZOV,M.T.GRIFFITH,C.B.ROTH,                 
+JRNL        AUTH 2 V.P.JAAKOLA,E.Y.CHIEN,J.VELASQUEZ,P.KUHN,                    
+JRNL        AUTH 3 R.C.STEVENS                                                  
+JRNL        TITL   A SPECIFIC CHOLESTEROL BINDING SITE IS ESTABLISHED           
+JRNL        TITL 2 BY THE 2.8 A STRUCTURE OF THE HUMAN                          
+JRNL        TITL 3 BETA(2)-ADRENERGIC RECEPTOR.                                 
+JRNL        REF    STRUCTURE                     V.  16   897 2008              
+JRNL        REFN                   ISSN 0969-2126                               
+JRNL        PMID   18547522                                                     
+JRNL        DOI    10.1016/J.STR.2008.05.001                                    
+REMARK   1                                                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : PHENIX                                               
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
+REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
+REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
+REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
+REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
+REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
+REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
+REMARK   3               : ZWART                                                
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : ENGH & HUBER                                  
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.80                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 20.00                          
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 1.380                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : NULL                           
+REMARK   3   NUMBER OF REFLECTIONS             : 12782                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.230                           
+REMARK   3   FREE R VALUE                     : 0.273                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.010                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 640                             
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
+REMARK   3   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE        
+REMARK   3     1  3.0000 -  2.8000    0.01        0   121  0.3000 0.3800        
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED        : NULL                                          
+REMARK   3   SOLVENT RADIUS     : NULL                                          
+REMARK   3   SHRINKAGE RADIUS   : NULL                                          
+REMARK   3   K_SOL              : NULL                                          
+REMARK   3   B_SOL              : NULL                                          
+REMARK   3                                                                      
+REMARK   3  ERROR ESTIMATES.                                                    
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : NULL             
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : NULL             
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  TWINNING INFORMATION.                                               
+REMARK   3   FRACTION: NULL                                                     
+REMARK   3   OPERATOR: NULL                                                     
+REMARK   3                                                                      
+REMARK   3  DEVIATIONS FROM IDEAL VALUES.                                       
+REMARK   3                 RMSD          COUNT                                  
+REMARK   3   BOND      :   NULL           NULL                                  
+REMARK   3   ANGLE     :   NULL           NULL                                  
+REMARK   3   CHIRALITY :   NULL           NULL                                  
+REMARK   3   PLANARITY :   NULL           NULL                                  
+REMARK   3   DIHEDRAL  :   NULL           NULL                                  
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  NCS DETAILS                                                         
+REMARK   3   NUMBER OF NCS GROUPS : NULL                                        
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NUMBER OF TLS GROUPS WAS 2 IN             
+REMARK   3  REFINEMENT.                                                         
+REMARK 999 STARBIOCHEM                                                          
+HET    CLR  A 402      28                                                       
+HETNAM     CLR CHOLESTEROL                                                      
+FORMUL   3  CLR    2(C27 H46 O)                                                 
+CRYST1   40.000   75.700  172.730  90.00  90.00  90.00 P 21 21 21    4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.025000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.013210  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.005789        0.00000                         
+HETATM 3550  C1  CLR A 402     -11.570  10.215  30.572  1.00 96.73           C  
+HETATM 3551  C2  CLR A 402     -11.488  10.197  29.053  1.00 96.92           C  
+HETATM 3552  C3  CLR A 402     -10.047  10.206  28.549  1.00 90.69           C  
+HETATM 3553  C4  CLR A 402      -9.306   8.990  29.106  1.00 78.41           C  
+HETATM 3554  C5  CLR A 402      -9.259   9.207  30.578  1.00 78.72           C  
+HETATM 3555  C6  CLR A 402      -8.059   9.373  31.160  1.00 75.22           C  
+HETATM 3556  C7  CLR A 402      -7.831   9.612  32.599  1.00 79.58           C  
+HETATM 3557  C8  CLR A 402      -9.054   9.223  33.425  1.00 83.80           C  
+HETATM 3558  C9  CLR A 402     -10.345   9.746  32.788  1.00 92.56           C  
+HETATM 3559  C10 CLR A 402     -10.577   9.291  31.320  1.00 90.37           C  
+HETATM 3560  C11 CLR A 402     -11.576   9.685  33.702  1.00 91.82           C  
+HETATM 3561  C12 CLR A 402     -11.327  10.220  35.095  1.00 92.06           C  
+HETATM 3562  C13 CLR A 402     -10.109   9.601  35.789  1.00 89.58           C  
+HETATM 3563  C14 CLR A 402      -8.915   9.772  34.832  1.00 81.93           C  
+HETATM 3564  C15 CLR A 402      -7.653   9.665  35.676  1.00 79.44           C  
+HETATM 3565  C16 CLR A 402      -8.088  10.124  37.061  1.00 68.69           C  
+HETATM 3566  C17 CLR A 402      -9.589  10.438  36.998  1.00 75.65           C  
+HETATM 3567  C18 CLR A 402     -10.338   8.139  36.136  1.00 93.00           C  
+HETATM 3568  C19 CLR A 402     -11.263   7.914  31.377  1.00 88.40           C  
+HETATM 3569  C20 CLR A 402     -10.268  10.205  38.341  1.00 79.56           C  
+HETATM 3570  C21 CLR A 402     -11.730  10.614  38.283  1.00 82.59           C  
+HETATM 3571  C22 CLR A 402      -9.525  10.929  39.464  1.00 80.72           C  
+HETATM 3572  C23 CLR A 402     -10.074  10.536  40.827  1.00 79.53           C  
+HETATM 3573  C24 CLR A 402      -9.016  10.668  41.904  1.00 80.54           C  
+HETATM 3574  C25 CLR A 402      -9.278  11.806  42.891  1.00 76.88           C  
+HETATM 3575  C26 CLR A 402      -9.117  11.347  44.328  1.00 56.32           C  
+HETATM 3576  C27 CLR A 402     -10.640  12.421  42.668  1.00 81.77           C  
+HETATM 3577  O1  CLR A 402      -9.959  10.185  27.129  1.00 88.45           O  
+MASTER      309    0    6   24    3    0   13    6 3699    1  156   38          
+END                                                                             

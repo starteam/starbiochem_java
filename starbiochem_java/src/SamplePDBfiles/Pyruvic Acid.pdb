@@ -1,0 +1,151 @@
+HEADER                                            20-JUL-09   3A4V              
+TITLE     CRYSTAL STRUCTURE OF PYRUVATE BOUND L-THREONINE DEHYDROGENASE FROM    
+TITLE    2 HYPERTHERMOPHILIC ARCHAEON THERMOPLASMA VOLCANIUM                    
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   4 SYNONYM: L-THREONINE DEHYDROGENASE;                                  
+COMPND   5 EC: 1.1.1.103;                                                       
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_TAXID: 50339;                                               
+SOURCE   4 GENE: TV0452, TVG0440460;                                            
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   8 EXPRESSION_SYSTEM_PLASMID: PET11A                                    
+KEYWDS    L-THREONINE DEHYDROGENASE, PYRUVATE, OXIDOREDUCTASE                   
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    K.YONEDA,H.SAKURABA,T.OHSHIMA                                         
+REVDAT   1   28-JUL-10 3A4V    0                                                
+JRNL        AUTH   K.YONEDA,H.SAKURABA,T.OHSHIMA                                
+JRNL        TITL   CRYSTAL STRUCTURE OF PYRUVATE BOUND L-THREONINE              
+JRNL        TITL 2 DEHYDROGENASE FROM HYPERTHERMOPHILIC ARCHAEON THERMOPLASMA   
+JRNL        TITL 3 VOLCANIUM                                                    
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.78 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.1                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : NULL                                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.78                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 43.80                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : NULL                           
+REMARK   3   NUMBER OF REFLECTIONS             : 53908                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : NULL                            
+REMARK   3   FREE R VALUE TEST SET SELECTION  : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.203                           
+REMARK   3   FREE R VALUE                     : 0.209                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : NULL                            
+REMARK   3   FREE R VALUE TEST SET COUNT      : NULL                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : NULL                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : NULL                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : NULL                         
+REMARK   3   BIN FREE R VALUE                    : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL                         
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 4944                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 116                                     
+REMARK   3   SOLVENT ATOMS            : 296                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 18.70                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : NULL                            
+REMARK   3   ESD FROM SIGMAA              (A) : NULL                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : NULL                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : NULL                            
+REMARK   3   BOND ANGLES            (DEGREES) : NULL                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : NULL                                                 
+REMARK   3   KSOL        : NULL                                                 
+REMARK   3   BSOL        : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+REMARK jmolscript: select ([PYR]1:A.C2 or [PYR]1:A.O3);                         
+REMARK jmolscript: bondorder 2; subset;                                         
+REMARK jmolscript: select ([PYR]1:A.C1 or [PYR]1:A.O1);                         
+REMARK jmolscript: bondorder 2; subset;                                         
+HET    PYR  A6450       6                                                       
+HETNAM     NAD NICOTINAMIDE-ADENINE-DINUCLEOTIDE                                
+HETNAM     PYR PYRUVIC ACID                                                     
+HETNAM     MPD (4S)-2-METHYL-2,4-PENTANEDIOL                                    
+CRYST1  149.803   45.988   89.778  90.00 113.37  90.00 C 1 2 1       8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.006675  0.000000  0.002885        0.00000                         
+SCALE2      0.000000  0.021745  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.012134        0.00000                         
+HETATM    1  C1  PYR A   1       0.705  -0.157   0.002  1.00 16.64           C  
+HETATM    2  O1  PYR A   1       1.053  -1.318   0.001  1.00 15.29           O  
+HETATM    3  O2  PYR A   1       1.628   0.821  -0.002  1.00 16.89           O  
+HETATM    4  C2  PYR A   1      -0.746   0.187   0.0    1.00 19.97           C  
+HETATM    5  O3  PYR A   1      -1.092   1.343   0.001  1.00 18.85           O  
+HETATM    6  C3  PYR A   1      -1.780  -0.91    0.002  1.00 19.98           C  
+HETATM    7  H   PYR A   1       2.139   0.397   0.750  1.00 19.98           H  
+HETATM    8  HC1 PYR A   1      -1.281  -1.879   0.002  1.00 19.98           H  
+HETATM    9  HC2 PYR A   1      -2.404  -0.822   0.887  1.00 19.98           H  
+HETATM   10  HC3 PYR A   1      -2.402  -0.821  -0.891  1.00 19.98           H  
+MASTER      332    0    6   25   24    0   21    6 5356    2  116   50          
+END                                                                             

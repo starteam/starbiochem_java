@@ -1,0 +1,178 @@
+HEADER                                            06-AUG-09   3IKN              
+TITLE     CRYSTAL STRUCTURE OF GALACTOSE BOUND TRIMERIC HUMAN LUNG              
+TITLE    2 SURFACTANT PROTEIN D                                                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A, B, C;                                                      
+COMPND   4 FRAGMENT: UNP RESIDUES 199-375;                                      
+COMPND   5 SYNONYM: SP-D, PSP-D, LUNG SURFACTANT PROTEIN D;                     
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MUTATION: YES;                                                       
+COMPND   8 OTHER_DETAILS: RECOMBINANT TRIMERIC FRAGMENT OF ALPHA                
+COMPND   9 HELICAL NECK REGION PLUS CARBOHYDRATE RECOGNITION DOMAIN             
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 GENE: SFTPD, PSPD, SFTP4;                                            
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI BL21(DE3);                       
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID                               
+KEYWDS    TRIMERIC RECOMBINANT FRAGMENT, NECK+CRD, CALCIUM, COILED              
+KEYWDS   2 COIL, COLLAGEN, DISULFIDE BOND, EXTRACELLULAR MATRIX,                
+KEYWDS   3 GASEOUS EXCHANGE, GLYCOPROTEIN, HYDROXYLATION, LECTIN,               
+KEYWDS   4 POLYMORPHISM, SECRETED, SURFACE FILM, SUGAR BINDING PROTEIN          
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    A.K.SHRIVE,T.J.GREENHOUGH                                             
+REVDAT   1   17-NOV-09 3IKN    0                                                
+JRNL        AUTH   A.K.SHRIVE,C.MARTIN,I.BURNS,J.M.PATERSON,                    
+JRNL        AUTH 2 J.D.MARTIN,J.P.TOWNSEND,P.WATERS,H.W.CLARK,                  
+JRNL        AUTH 3 U.KISHORE,K.B.M.REID,T.J.GREENHOUGH                          
+JRNL        TITL   STRUCTURAL CHARACTERISATION OF LIGAND-BINDING                
+JRNL        TITL 2 DETERMINANTS IN HUMAN LUNG SURFACTANT PROTEIN D:             
+JRNL        TITL 3 INFLUENCE OF ASP325                                          
+JRNL        REF    J.MOL.BIOL.                                2009              
+JRNL        REFN                   ESSN 1089-8638                               
+JRNL        PMID   19799916                                                     
+JRNL        DOI    10.1016/J.JMB.2009.09.057                                    
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   A.K.SHRIVE,H.A.THARIA,P.STRONG,U.KISHORE,I.BURNS,            
+REMARK   1  AUTH 2 P.J.RIZKALLAH,K.B.M.REID,T.J.GREENHOUGH                      
+REMARK   1  TITL   HIGH-RESOLUTION STRUCTURAL INSIGHTS INTO LIGAND              
+REMARK   1  TITL 2 BINDING AND IMMUNE CELL RECOGNITION BY HUMAN LUNG            
+REMARK   1  TITL 3 SURFACTANT PROTEIN D.                                        
+REMARK   1  REF    J.MOL.BIOL.                   V. 331   509 2003              
+REMARK   1  REFN                   ISSN 0022-2836                               
+REMARK   1  PMID   12888356                                                     
+REMARK   1  DOI    10.1016/S0022-2836(03)00761-7                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.60 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS                                                  
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : NULL                                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.60                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 55.86                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 95.6                           
+REMARK   3   NUMBER OF REFLECTIONS             : 83548                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.201                           
+REMARK   3   FREE R VALUE                     : 0.215                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.800                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 4192                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.60                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.66                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 80.00                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2954                       
+REMARK   3   BIN FREE R VALUE                    : 0.3093                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 346                          
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 3492                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 46                                      
+REMARK   3   SOLVENT ATOMS            : 492                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 23.32                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -1.75800                                             
+REMARK   3    B22 (A**2) : -0.33300                                             
+REMARK   3    B33 (A**2) : 2.09100                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.30200                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.19                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.09                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.21                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.10                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : NULL                            
+REMARK   3   BOND ANGLES            (DEGREES) : NULL                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.049 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 1.584 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 1.910 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 2.851 ; 2.500                
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : NULL                                                 
+REMARK   3   KSOL        : NULL                                                 
+REMARK   3   BSOL        : 44.29                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP.PARAM                              
+REMARK   3  PARAMETER FILE  2  : CARBOHYDRATE.PARAM                             
+REMARK   3  PARAMETER FILE  3  : ION.PARAM                                      
+REMARK   3  PARAMETER FILE  4  : WATER_REP.PARAM                                
+REMARK   3  PARAMETER FILE  5  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3  TOPOLOGY FILE  2   : NULL                                           
+REMARK   3  TOPOLOGY FILE  3   : NULL                                           
+REMARK   3  TOPOLOGY FILE  4   : NULL                                           
+REMARK   3  TOPOLOGY FILE  5   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+HET    GAL  A 405      12                                                       
+HETNAM      CA CALCIUM ION                                                      
+HETNAM     GAL BETA-D-GALACTOSE                                                 
+CRYST1   55.740  108.580   55.880  90.00  91.41  90.00 P 1 21 1      6          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.017940  0.000000  0.000442        0.00000                         
+SCALE2      0.000000  0.009210  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.017901        0.00000                         
+HETATM 3500  C1  GAL A 405      29.398 -13.411  11.952  1.00 22.15           C  
+HETATM 3501  C2  GAL A 405      28.082 -14.014  11.457  1.00 22.09           C  
+HETATM 3502  C3  GAL A 405      28.382 -15.188  10.520  1.00 24.90           C  
+HETATM 3503  C4  GAL A 405      29.301 -14.733   9.382  1.00 26.26           C  
+HETATM 3504  C5  GAL A 405      30.549 -14.038   9.952  1.00 26.46           C  
+HETATM 3505  C6  GAL A 405      31.442 -13.446   8.880  1.00 28.34           C  
+HETATM 3506  O1  GAL A 405      29.157 -12.326  12.785  1.00 18.17           O  
+HETATM 3507  O2  GAL A 405      27.311 -14.471  12.556  1.00 21.54           O  
+HETATM 3508  O3  GAL A 405      27.169 -15.698   9.987  1.00 26.79           O  
+HETATM 3509  O4  GAL A 405      28.597 -13.845   8.524  1.00 26.78           O  
+HETATM 3510  O5  GAL A 405      30.168 -12.956  10.835  1.00 24.23           O  
+HETATM 3511  O6  GAL A 405      32.556 -12.776   9.454  1.00 31.30           O  
+MASTER      515    0   13   12   21    0   29    6 4030    3  130   42          
+END                                                                             

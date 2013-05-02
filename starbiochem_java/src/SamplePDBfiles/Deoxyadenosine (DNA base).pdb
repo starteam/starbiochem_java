@@ -1,0 +1,233 @@
+HEADER    STRUCTURAL GENOMICS, UNKNOWN FUNCTION   22-FEB-11   3QTB              
+TITLE     STRUCTURE OF THE UNIVERSAL STRESS PROTEIN FROM ARCHAEOGLOBUS FULGIDUS 
+TITLE    2 IN COMPLEX WITH DAMP                                                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: UNCHARACTERIZED PROTEIN;                                   
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: ARCHAEOGLOBUS FULGIDUS;                         
+SOURCE   3 ORGANISM_TAXID: 2234;                                                
+SOURCE   4 GENE: AF_0826;                                                       
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 511693;                                     
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21-CODONPLUS(DE3)-RIPL;                  
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_PLASMID: P15TV LIC                                 
+KEYWDS    STRUCTURAL GENOMICS, PSI-BIOLOGY, MIDWEST CENTER FOR STRUCTURAL       
+KEYWDS   2 GENOMICS, MCSG, A/B CLASS, RFM LIKE, PUTATIVE UNIVERSAL STRESS       
+KEYWDS   3 PROTEIN, UNKNOWN FUNCTION                                            
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    K.L.TKACZUK,I.A.SHUMILIN,M.CHRUSZCZ,M.CYMBOROWSKI,X.XU,R.DI LEO,      
+AUTHOR   2 A.SAVCHENKO,A.JOACHIMIAK,W.MINOR,MIDWEST CENTER FOR STRUCTURAL       
+AUTHOR   3 GENOMICS (MCSG)                                                      
+REVDAT   1   30-MAR-11 3QTB    0                                                
+JRNL        AUTH   K.L.TKACZUK,I.A.SHUMILIN,M.CHRUSZCZ,M.CYMBOROWSKI,X.XU,      
+JRNL        AUTH 2 R.DI LEO,A.SAVCHENKO,A.JOACHIMIAK,W.MINOR                    
+JRNL        TITL   STRUCTURE OF THE UNIVERSAL STRESS PROTEIN FROM ARCHAEOGLOBUS 
+JRNL        TITL 2 FULGIDUS IN COMPLEX WITH DAMP                                
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.6.0070                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.10                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 50.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.8                           
+REMARK   3   NUMBER OF REFLECTIONS             : 14059                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.202                           
+REMARK   3   R VALUE            (WORKING SET) : 0.200                           
+REMARK   3   FREE R VALUE                     : 0.237                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 738                             
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.10                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.15                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1027                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.45                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.1960                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 54                           
+REMARK   3   BIN FREE R VALUE                    : 0.2180                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 1970                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 34                                      
+REMARK   3   SOLVENT ATOMS            : 50                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 31.90                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 38.86                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -0.10000                                             
+REMARK   3    B22 (A**2) : 0.63000                                              
+REMARK   3    B33 (A**2) : -1.75000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : -1.35000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.254         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.195         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.153         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 12.228        
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.951                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.936                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  2031 ; 0.014 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  1394 ; 0.006 ; 0.020       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  2750 ; 1.425 ; 2.003       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  3402 ; 0.840 ; 3.000       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   255 ; 5.673 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):    81 ;34.469 ;23.333       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   355 ;15.158 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):    19 ;15.662 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   323 ; 0.081 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2228 ; 0.005 ; 0.021       
+REMARK   3   GENERAL PLANES OTHERS             (A):   388 ; 0.001 ; 0.020       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : 3                                          
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 1                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 2                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   A     1        A   104                          
+REMARK   3    RESIDUE RANGE :   B     1        B   102                          
+REMARK   3    ORIGIN FOR THE GROUP (A):  19.7546  29.7929 -13.3028              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.0740 T22:   0.0374                                     
+REMARK   3      T33:   0.0524 T12:   0.0267                                     
+REMARK   3      T13:  -0.0219 T23:  -0.0078                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   2.8696 L22:   1.2427                                     
+REMARK   3      L33:   1.3092 L12:   0.7256                                     
+REMARK   3      L13:  -0.8763 L23:  -0.3633                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:  -0.0394 S12:  -0.0858 S13:  -0.0144                       
+REMARK   3      S21:   0.0149 S22:   0.0671 S23:   0.0196                       
+REMARK   3      S31:  -0.0344 S32:   0.1352 S33:  -0.0276                       
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 2                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 1                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   B   103        B   116                          
+REMARK   3    ORIGIN FOR THE GROUP (A):  29.2668  23.4723 -29.6174              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.0766 T22:   0.1751                                     
+REMARK   3      T33:   0.1278 T12:   0.0188                                     
+REMARK   3      T13:  -0.0007 T23:  -0.0343                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   6.8741 L22:  10.1758                                     
+REMARK   3      L33:  13.7842 L12:  -6.5710                                     
+REMARK   3      L13:  -1.8980 L23:   6.4603                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   0.3150 S12:   0.4575 S13:  -0.0253                       
+REMARK   3      S21:  -0.3762 S22:  -0.1049 S23:  -0.2151                       
+REMARK   3      S31:  -0.0372 S32:   0.1960 S33:  -0.2102                       
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 3                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 2                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   A   116        A   134                          
+REMARK   3    RESIDUE RANGE :   B   117        B   134                          
+REMARK   3    ORIGIN FOR THE GROUP (A):  24.1643  23.0176 -15.2641              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.1685 T22:   0.1739                                     
+REMARK   3      T33:   0.1960 T12:   0.0141                                     
+REMARK   3      T13:  -0.0310 T23:  -0.0282                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   3.2047 L22:   1.7717                                     
+REMARK   3      L33:   1.0569 L12:   0.9418                                     
+REMARK   3      L13:  -1.6701 L23:  -0.1296                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:  -0.0900 S12:  -0.1662 S13:  -0.2530                       
+REMARK   3      S21:   0.0793 S22:   0.0851 S23:  -0.0850                       
+REMARK   3      S31:   0.1208 S32:   0.1892 S33:   0.0048                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.20                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN USED IF PRESENT IN    
+REMARK   3  THE INPUT                                                           
+CRYST1  109.607   42.655   61.289  90.00 116.82  90.00 C 1 2 1       8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.009124  0.000000  0.004612        0.00000                         
+SCALE2      0.000000  0.023444  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.018282        0.00000                         
+HETATM 1973  O5' D5M A 135      19.354  15.168  -8.715  1.00 79.49           O  
+HETATM 1974  C5' D5M A 135      19.553  16.576  -8.596  1.00 68.92           C  
+HETATM 1975  C4' D5M A 135      18.232  17.359  -8.605  1.00 67.14           C  
+HETATM 1976  O4' D5M A 135      17.218  16.564  -9.225  1.00 65.82           O  
+HETATM 1977  C3' D5M A 135      17.712  17.766  -7.222  1.00 58.32           C  
+HETATM 1978  O3' D5M A 135      17.132  19.090  -7.190  1.00 49.06           O  
+HETATM 1979  C2' D5M A 135      16.640  16.742  -6.945  1.00 57.51           C  
+HETATM 1980  C1' D5M A 135      16.112  16.425  -8.341  1.00 58.72           C  
+HETATM 1981  N9  D5M A 135      15.554  15.058  -8.432  1.00 64.90           N  
+HETATM 1982  C8  D5M A 135      16.223  13.884  -8.347  1.00 67.24           C  
+HETATM 1983  N7  D5M A 135      15.370  12.829  -8.471  1.00 64.41           N  
+HETATM 1984  C5  D5M A 135      14.126  13.324  -8.640  1.00 67.90           C  
+HETATM 1985  C6  D5M A 135      12.750  12.780  -8.835  1.00 64.87           C  
+HETATM 1986  N6  D5M A 135      12.506  11.448  -8.873  1.00 63.07           N  
+HETATM 1987  N1  D5M A 135      11.738  13.673  -8.976  1.00 63.38           N  
+HETATM 1988  C2  D5M A 135      11.949  15.011  -8.934  1.00 62.88           C  
+HETATM 1989  N3  D5M A 135      13.159  15.571  -8.764  1.00 64.72           N  
+HETATM 1990  C4  D5M A 135      14.264  14.797  -8.617  1.00 68.41           C  
+HETATM 1991  P   D5M A 135      20.612  14.168  -8.880  1.00 88.01           P  
+HETATM 1992  O1P D5M A 135      21.551  14.553  -7.760  1.00101.44           O  
+HETATM 1993  O3P D5M A 135      20.043  12.768  -8.774  1.00 84.54           O  
+HETATM 1994  O2P D5M A 135      21.153  14.532 -10.241  1.00 84.29           O  
+MASTER      390    0    7   10   12    0    6    6 2054    2   60   24          
+END                                                                             

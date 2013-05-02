@@ -1,0 +1,177 @@
+HEADER                                            08-DEC-08   3FGU              
+TITLE     CATALYTIC COMPLEX OF HUMAN GLUCOKINASE                                
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: UNP RESIDUES 12-465;                                       
+COMPND   5 SYNONYM: PANCREATIC GLUCOKINASE, HEXOKINASE TYPE IV, HK IV,          
+COMPND   6 HEXOKINASE-4, HK4, HEXOKINASE-D;                                     
+COMPND   7 EC: 2.7.1.2;                                                         
+COMPND   8 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21;                                      
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET28B                                    
+KEYWDS    GLUCOKINASE, HEXOKINASE IV, ALTERNATIVE SPLICING, ATP-                
+KEYWDS   2 BINDING, DIABETES MELLITUS, DISEASE MUTATION, GLYCOLYSIS,            
+KEYWDS   3 KINASE, NUCLEOTIDE-BINDING, POLYMORPHISM, TRANSFERASE                
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    P.PETIT,A.LAGARDE,J.A.BOUTIN,G.FERRY,L.VUILLARD                       
+REVDAT   1   15-DEC-09 3FGU    0                                                
+JRNL        AUTH   P.PETIT,A.LAGARDE,J.A.BOUTIN,G.FERRY,L.VUILLARD              
+JRNL        TITL   EFFECT OF MODULATORS ON THE STRUCTURE AND FUNCTION           
+JRNL        TITL 2 OF HUMAN GLUCOKINASE                                         
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   1                                                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.15 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.15                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 20.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 2.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 84.5                           
+REMARK   3   NUMBER OF REFLECTIONS             : 21054                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.200                           
+REMARK   3   R VALUE            (WORKING SET) : 0.197                           
+REMARK   3   FREE R VALUE                     : 0.255                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.100                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 1125                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.15                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.21                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1141                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 62.03                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.1910                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 40                           
+REMARK   3   BIN FREE R VALUE                    : 0.2980                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 3568                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 45                                      
+REMARK   3   SOLVENT ATOMS            : 192                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 19.86                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 1.12000                                              
+REMARK   3    B22 (A**2) : 0.46000                                              
+REMARK   3    B33 (A**2) : -1.58000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.368         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.251         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.154         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 11.176        
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.935                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.891                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  3673 ; 0.011 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  2550 ; 0.001 ; 0.020       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  4951 ; 1.267 ; 1.980       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  6194 ; 0.923 ; 3.000       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   461 ; 5.689 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):   179 ;37.578 ;24.022       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   686 ;17.363 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):    32 ;20.122 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   545 ; 0.073 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  4073 ; 0.004 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):   750 ; 0.001 ; 0.020       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):   820 ; 0.202 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  2673 ; 0.201 ; 0.200       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  1731 ; 0.172 ; 0.200       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  2023 ; 0.086 ; 0.200       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):   200 ; 0.163 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):     2 ; 0.148 ; 0.200       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):     4 ; 0.124 ; 0.200       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    13 ; 0.101 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):    36 ; 0.293 ; 0.200       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):     5 ; 0.150 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2229 ; 0.583 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   931 ; 0.103 ; 1.500       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3584 ; 1.108 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1457 ; 1.617 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1358 ; 2.635 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : MASK                                                 
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.20                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
+REMARK   3  RIDING POSITIONS                                                    
+REMARK 999 STARBIOCHEM                                                          
+HET    BGC  A 501      12                                                       
+HET    ANP  A 600      31                                                       
+HET     MG  A 700       1                                                       
+HET      K  A 800       1                                                       
+HETNAM     BGC BETA-D-GLUCOSE                                                   
+HETNAM     ANP PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER                      
+HETNAM      MG MAGNESIUM ION                                                    
+HETNAM       K POTASSIUM ION                                                    
+CRYST1   65.880   82.120   86.830  90.00  90.00  90.00 P 21 21 21    4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.015179  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.012177  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.011517        0.00000                         
+HETATM 3570  C2  BGC A 501     -26.145  -6.059  13.113  1.00 13.39           C  
+HETATM 3571  C3  BGC A 501     -25.076  -5.146  13.720  1.00 12.05           C  
+HETATM 3572  C4  BGC A 501     -24.470  -4.222  12.683  1.00 12.48           C  
+HETATM 3573  C5  BGC A 501     -25.524  -3.593  11.768  1.00 12.98           C  
+HETATM 3574  C6  BGC A 501     -24.916  -2.897  10.571  1.00 14.00           C  
+HETATM 3575  C1  BGC A 501     -27.126  -5.124  12.427  1.00 14.97           C  
+HETATM 3576  O1  BGC A 501     -28.207  -5.843  11.940  1.00 22.28           O  
+HETATM 3577  O2  BGC A 501     -26.779  -6.875  14.100  1.00 10.53           O  
+HETATM 3578  O3  BGC A 501     -24.044  -5.850  14.383  1.00 12.12           O  
+HETATM 3579  O4  BGC A 501     -23.790  -3.202  13.394  1.00 13.48           O  
+HETATM 3580  O5  BGC A 501     -26.486  -4.530  11.321  1.00 15.69           O  
+HETATM 3581  O6  BGC A 501     -24.129  -3.773   9.774  1.00 12.75           O  
+MASTER      340    0    4   20   13    0   12    6 3805    1   51   37          
+END                                                                             

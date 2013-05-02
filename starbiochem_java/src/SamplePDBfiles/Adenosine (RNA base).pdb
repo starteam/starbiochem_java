@@ -1,0 +1,180 @@
+HEADER    TRANSFERASE                             13-JUN-10   3NGT              
+TITLE     STRUCTURE OF LEISHMANIA NDKB COMPLEXED WITH AMP.                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: NUCLEOSIDE DIPHOSPHATE KINASE;                             
+COMPND   3 CHAIN: A, B, C, D, E, F, G, H, I, J, K, L, M, N;                     
+COMPND   4 EC: 2.7.4.6;                                                         
+COMPND   5 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: LEISHMANIA MAJOR;                               
+SOURCE   3 ORGANISM_TAXID: 5664;                                                
+SOURCE   4 GENE: L1648.07, LMJF32.2950, NDKB;                                   
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET28A                                    
+KEYWDS    LMNDKB, AMP, TRANSFERASE                                              
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    D.M.TRINDADE,T.A.C.B.SOUSA,C.C.C.TONOLI,C.R.SANTOS,R.K.ARNI,R.J.WARD, 
+AUTHOR   2 A.H.C.OLIVEIRA,M.T.MURAKAMI                                          
+REVDAT   3   29-JUN-11 3NGT    1       JRNL                                     
+REVDAT   2   18-MAY-11 3NGT    1       JRNL                                     
+REVDAT   1   27-APR-11 3NGT    0                                                
+JRNL        AUTH   T.A.SOUZA,D.M.TRINDADE,C.C.TONOLI,C.R.SANTOS,R.J.WARD,       
+JRNL        AUTH 2 R.K.ARNI,A.H.OLIVEIRA,M.T.MURAKAMI                           
+JRNL        TITL   MOLECULAR ADAPTABILITY OF NUCLEOSIDE DIPHOSPHATE KINASE B    
+JRNL        TITL 2 FROM TRYPANOSOMATID PARASITES: STABILITY, OLIGOMERIZATION    
+JRNL        TITL 3 AND STRUCTURAL DETERMINANTS OF NUCLEOTIDE BINDING.           
+JRNL        REF    MOL BIOSYST                   V.   7  2189 2011              
+JRNL        REFN                   ISSN 1742-206X                               
+JRNL        PMID   21528129                                                     
+JRNL        DOI    10.1039/C0MB00307G                                           
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.57 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.5.0089                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.57                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 161.00                         
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 97.4                           
+REMARK   3   NUMBER OF REFLECTIONS             : 81830                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.241                           
+REMARK   3   R VALUE            (WORKING SET) : 0.237                           
+REMARK   3   FREE R VALUE                     : 0.314                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 4338                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.57                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.64                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 6134                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.35                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2810                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 331                          
+REMARK   3   BIN FREE R VALUE                    : 0.4210                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 16027                                   
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 299                                     
+REMARK   3   SOLVENT ATOMS            : 357                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 38.25                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -0.76000                                             
+REMARK   3    B22 (A**2) : -0.76000                                             
+REMARK   3    B33 (A**2) : 1.14000                                              
+REMARK   3    B12 (A**2) : -0.38000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.622         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.369         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.253         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 11.131        
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.913                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.857                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A): 16378 ; 0.016 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES): 22290 ; 1.816 ; 1.964       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):  2069 ; 6.852 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):   665 ;31.512 ;23.098       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):  2488 ;19.115 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):   106 ;22.998 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):  2442 ; 0.129 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A): 12469 ; 0.008 ; 0.021       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2): 10244 ; 0.768 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2): 16417 ; 1.467 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  6134 ; 2.268 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  5866 ; 3.723 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.40                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.00                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
+CRYST1  233.949  233.949  265.335  90.00  90.00 120.00 H 3 2       252          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.004274  0.002468  0.000000        0.00000                         
+SCALE2      0.000000  0.004936  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.003769        0.00000                         
+HETATM16087  P   AMP A 152     -19.365 -55.722 -42.519  1.00 56.68           P  
+HETATM16088  O1P AMP A 152     -20.294 -55.426 -43.672  1.00 54.79           O  
+HETATM16089  O2P AMP A 152     -19.110 -57.200 -42.280  1.00 57.16           O  
+HETATM16090  O3P AMP A 152     -18.164 -54.813 -42.554  1.00 57.65           O  
+HETATM16091  O5' AMP A 152     -20.078 -55.300 -41.130  1.00 56.91           O  
+HETATM16092  C5' AMP A 152     -19.655 -55.773 -39.838  1.00 55.49           C  
+HETATM16093  C4' AMP A 152     -18.570 -54.874 -39.196  1.00 54.81           C  
+HETATM16094  O4' AMP A 152     -18.486 -53.540 -39.720  1.00 52.55           O  
+HETATM16095  C3' AMP A 152     -18.656 -54.653 -37.674  1.00 55.67           C  
+HETATM16096  O3' AMP A 152     -18.164 -55.755 -36.872  1.00 57.73           O  
+HETATM16097  C2' AMP A 152     -17.899 -53.336 -37.449  1.00 54.29           C  
+HETATM16098  O2' AMP A 152     -16.754 -53.432 -36.584  1.00 55.30           O  
+HETATM16099  C1' AMP A 152     -17.509 -52.951 -38.864  1.00 51.05           C  
+HETATM16100  N9  AMP A 152     -17.242 -51.528 -39.183  1.00 49.01           N  
+HETATM16101  C8  AMP A 152     -17.569 -50.964 -40.348  1.00 48.36           C  
+HETATM16102  N7  AMP A 152     -17.147 -49.674 -40.420  1.00 48.63           N  
+HETATM16103  C5  AMP A 152     -16.495 -49.381 -39.284  1.00 49.70           C  
+HETATM16104  C6  AMP A 152     -15.792 -48.161 -38.741  1.00 49.90           C  
+HETATM16105  N6  AMP A 152     -15.702 -46.977 -39.444  1.00 48.52           N  
+HETATM16106  N1  AMP A 152     -15.232 -48.293 -37.517  1.00 48.80           N  
+HETATM16107  C2  AMP A 152     -15.312 -49.474 -36.830  1.00 52.62           C  
+HETATM16108  N3  AMP A 152     -15.929 -50.621 -37.252  1.00 50.37           N  
+HETATM16109  C4  AMP A 152     -16.547 -50.628 -38.468  1.00 50.03           C  
+MASTER      842    0   13  154   56    0   33    616683   14  299  168          
+END                                                                             

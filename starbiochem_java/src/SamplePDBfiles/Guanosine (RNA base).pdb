@@ -1,0 +1,141 @@
+HEADER    RNA                                     24-JUN-11   3SLQ              
+TITLE     CRYSTAL STRUCTURE OF THE 2'- DEOXYGUANOSINE RIBOSWITCH BOUND TO       
+TITLE    2 GUANOSINE-5'-MONOPHOSPHATE                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA (68-MER);                                              
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 OTHER_DETAILS: IN VITRO TRANSCRIBED RNA                              
+KEYWDS    THREE-WAY JUNCTION, RIBOSWITCH, 2'-DEOXY GUANOSINE, RNA               
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    O.PIKOVSKAYA,A.POLONSKAIA,D.J.PATEL,A.SERGANOV                        
+REVDAT   3   26-OCT-11 3SLQ    1       JRNL                                     
+REVDAT   2   05-OCT-11 3SLQ    1       HETATM                                   
+REVDAT   1   17-AUG-11 3SLQ    0                                                
+JRNL        AUTH   O.PIKOVSKAYA,A.POLONSKAIA,D.J.PATEL,A.SERGANOV               
+JRNL        TITL   STRUCTURAL PRINCIPLES OF NUCLEOSIDE SELECTIVITY IN A         
+JRNL        TITL 2 2'-DEOXYGUANOSINE RIBOSWITCH.                                
+JRNL        REF    NAT.CHEM.BIOL.                V.   7   748 2011              
+JRNL        REFN                   ISSN 1552-4450                               
+JRNL        PMID   21841796                                                     
+JRNL        DOI    10.1038/NCHEMBIO.631                                         
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.4_486)                    
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
+REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
+REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
+REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
+REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
+REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
+REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
+REMARK   3               : ZWART                                                
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : ML                                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.50                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 19.88                          
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 1.350                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 96.0                           
+REMARK   3   NUMBER OF REFLECTIONS             : 13571                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.242                           
+REMARK   3   R VALUE            (WORKING SET) : 0.237                           
+REMARK   3   FREE R VALUE                     : 0.285                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.040                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : 1362                            
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
+REMARK   3   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE        
+REMARK   3     1 19.8802 -  5.3550    0.96     1361   125  0.1765 0.2020        
+REMARK   3     2  5.3550 -  4.2642    0.95     1218   151  0.1764 0.2236        
+REMARK   3     3  4.2642 -  3.7292    0.95     1224   126  0.1934 0.2313        
+REMARK   3     4  3.7292 -  3.3901    0.94     1193   145  0.2464 0.2822        
+REMARK   3     5  3.3901 -  3.1481    0.94     1173   129  0.2637 0.3406        
+REMARK   3     6  3.1481 -  2.9632    0.95     1218   124  0.2763 0.3045        
+REMARK   3     7  2.9632 -  2.8152    0.98     1223   144  0.3192 0.4026        
+REMARK   3     8  2.8152 -  2.6929    0.98     1204   125  0.3580 0.3855        
+REMARK   3     9  2.6929 -  2.5895    0.98     1247   132  0.3842 0.4281        
+REMARK   3    10  2.5895 -  2.5003    0.97     1148   161  0.4171 0.4939        
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL                       
+REMARK   3   SOLVENT RADIUS     : 0.90                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.61                                          
+REMARK   3   K_SOL              : 0.34                                          
+REMARK   3   B_SOL              : 40.20                                         
+REMARK   3                                                                      
+REMARK   3  ERROR ESTIMATES.                                                    
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.460            
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 34.440           
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -4.58950                                             
+REMARK   3    B22 (A**2) : 31.45680                                             
+REMARK   3    B33 (A**2) : -26.86720                                            
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3                                                                      
+REMARK   3  TWINNING INFORMATION.                                               
+REMARK   3   FRACTION: NULL                                                     
+REMARK   3   OPERATOR: NULL                                                     
+REMARK   3                                                                      
+REMARK   3  DEVIATIONS FROM IDEAL VALUES.                                       
+REMARK   3                 RMSD          COUNT                                  
+REMARK   3   BOND      :  0.006           3291                                  
+REMARK   3   ANGLE     :  1.058           5114                                  
+REMARK   3   CHIRALITY :  0.062            672                                  
+REMARK   3   PLANARITY :  0.007            138                                  
+REMARK   3   DIHEDRAL  : 24.363           1645                                  
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  NCS DETAILS                                                         
+REMARK   3   NUMBER OF NCS GROUPS : NULL                                        
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+CRYST1   34.876   48.390  228.630  90.00  90.00  90.00 P 21 21 21    8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.028673  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.020665  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.004374        0.00000                         
+HETATM 2877  P   5GP A 120      -7.493   9.637 -62.129  1.00 49.47           P  
+HETATM 2878  O1P 5GP A 120      -6.214   8.856 -62.312  1.00 50.33           O  
+HETATM 2879  O2P 5GP A 120      -7.355  11.124 -62.341  1.00 45.29           O  
+HETATM 2880  O3P 5GP A 120      -8.714   9.037 -62.794  1.00 55.71           O  
+HETATM 2881  O5' 5GP A 120      -7.810   9.484 -60.566  1.00 49.84           O  
+HETATM 2882  C5' 5GP A 120      -7.728   8.236 -59.876  1.00 47.13           C  
+HETATM 2883  C4' 5GP A 120      -8.292   8.455 -58.475  1.00 36.59           C  
+HETATM 2884  O4' 5GP A 120      -8.313   7.242 -57.735  1.00 37.18           O  
+HETATM 2885  C3' 5GP A 120      -7.436   9.395 -57.662  1.00 38.73           C  
+HETATM 2886  O3' 5GP A 120      -7.823  10.741 -57.939  1.00 34.46           O  
+HETATM 2887  C2' 5GP A 120      -7.718   8.956 -56.233  1.00 38.55           C  
+HETATM 2888  O2' 5GP A 120      -8.949   9.519 -55.777  1.00 35.69           O  
+HETATM 2889  C1' 5GP A 120      -7.909   7.458 -56.372  1.00 40.05           C  
+HETATM 2890  N9  5GP A 120      -6.606   6.795 -56.175  1.00 39.66           N  
+HETATM 2891  C8  5GP A 120      -5.462   7.418 -55.880  1.00 38.60           C  
+HETATM 2892  N7  5GP A 120      -4.485   6.489 -55.790  1.00 40.59           N  
+HETATM 2893  C5  5GP A 120      -5.038   5.281 -56.024  1.00 37.86           C  
+HETATM 2894  C6  5GP A 120      -4.530   3.996 -56.061  1.00 39.62           C  
+HETATM 2895  O6  5GP A 120      -3.319   3.788 -55.836  1.00 43.82           O  
+HETATM 2896  N1  5GP A 120      -5.344   2.970 -56.334  1.00 38.24           N  
+HETATM 2897  C2  5GP A 120      -6.647   3.195 -56.557  1.00 38.71           C  
+HETATM 2898  N2  5GP A 120      -7.444   2.149 -56.836  1.00 42.97           N  
+HETATM 2899  N3  5GP A 120      -7.164   4.430 -56.529  1.00 38.05           N  
+HETATM 2900  C4  5GP A 120      -6.375   5.483 -56.259  1.00 37.88           C  
+MASTER      273    0   14    0    0    0   14    6 2964    2  202   12          
+END                                                                             

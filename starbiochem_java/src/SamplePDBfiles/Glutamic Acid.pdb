@@ -1,0 +1,138 @@
+HEADER                                            22-JAN-98   1A3N              
+TITLE     DEOXY HUMAN HEMOGLOBIN                                                
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A, C;                                                         
+COMPND   4 MOL_ID: 2;                                                           
+COMPND   5 MOLECULE:                                                            
+COMPND   6 CHAIN: B, D                                                          
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 TISSUE: BLOOD;                                                       
+SOURCE   6 CELL: RED CELL;                                                      
+SOURCE   7 MOL_ID: 2;                                                           
+SOURCE   8 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   9 ORGANISM_COMMON:                                                     
+SOURCE  10 ORGANISM_TAXID: 9606;                                                
+SOURCE  11 TISSUE: BLOOD;                                                       
+SOURCE  12 CELL: RED CELL                                                       
+KEYWDS    OXYGEN TRANSPORT, HEME, RESPIRATORY PROTEIN, ERYTHROCYTE              
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    J.TAME,B.VALLONE                                                      
+REVDAT   2   24-FEB-09 1A3N    1       VERSN                                    
+REVDAT   1   29-APR-98 1A3N    0                                                
+JRNL        AUTH   J.R.TAME,B.VALLONE                                           
+JRNL        TITL   THE STRUCTURES OF DEOXY HUMAN HAEMOGLOBIN AND THE            
+JRNL        TITL 2 MUTANT HB TYRALPHA42HIS AT 120 K.                            
+JRNL        REF    ACTA CRYSTALLOGR.,SECT.D      V.  56   805 2000              
+JRNL        REFN                   ISSN 0907-4449                               
+JRNL        PMID   10930827                                                     
+JRNL        DOI    10.1107/S0907444900006387                                    
+REMARK   1                                                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.80 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC                                               
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.80                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 15.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 95.8                           
+REMARK   3   NUMBER OF REFLECTIONS             : 49661                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : NULL                            
+REMARK   3   FREE R VALUE TEST SET SELECTION  : NULL                            
+REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.171                           
+REMARK   3   FREE R VALUE                     : 0.220                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 2000                            
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 4370                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 172                                     
+REMARK   3   SOLVENT ATOMS            : 455                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 16.20                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): NULL          
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): NULL          
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): NULL          
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): NULL          
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   DISTANCE RESTRAINTS.                    RMS    SIGMA               
+REMARK   3    BOND LENGTH                     (A) : 0.012 ; 0.020               
+REMARK   3    ANGLE DISTANCE                  (A) : 0.028 ; 0.040               
+REMARK   3    INTRAPLANAR 1-4 DISTANCE        (A) : 0.034 ; 0.050               
+REMARK   3    H-BOND OR METAL COORDINATION    (A) : NULL  ; NULL                
+REMARK   3                                                                      
+REMARK   3   PLANE RESTRAINT                  (A) : NULL  ; NULL                
+REMARK   3   CHIRAL-CENTER RESTRAINT       (A**3) : 0.091 ; 0.150               
+REMARK   3                                                                      
+REMARK   3   NON-BONDED CONTACT RESTRAINTS.                                     
+REMARK   3    SINGLE TORSION                  (A) : 0.164 ; 0.300               
+REMARK   3    MULTIPLE TORSION                (A) : 0.274 ; 0.300               
+REMARK   3    H-BOND (X...Y)                  (A) : 0.112 ; 0.300               
+REMARK   3    H-BOND (X-H...Y)                (A) : NULL  ; NULL                
+REMARK   3                                                                      
+REMARK   3   CONFORMATIONAL TORSION ANGLE RESTRAINTS.                           
+REMARK   3    SPECIFIED                 (DEGREES) : NULL  ; NULL                
+REMARK   3    PLANAR                    (DEGREES) : 3.000 ; 7.000               
+REMARK   3    STAGGERED                 (DEGREES) : 13.900; 15.000              
+REMARK   3    TRANSVERSE                (DEGREES) : 32.500; 20.000              
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.944 ; 2.000                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.417 ; 3.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 2.613 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 3.738 ; 3.000                
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+REMARK jmolscript: select ([GLU]1:A.C or [GLU]1:A.O);                           
+REMARK jmolscript: bondorder 2; subset;                                         
+REMARK jmolscript: select ([GLU]1:A.CD or [GLU]1:A.OE1);                        
+REMARK jmolscript: bondorder 2; subset;                                         
+CRYST1   56.000   56.000   78.400  90.00  90.00 120.00 P 32          9          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.017857  0.010310  0.000000        0.00000                         
+SCALE2      0.000000  0.020620  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.012755        0.00000                         
+ATOM      1  N   GLU A   1      -6.688  13.613  27.794  1.00 12.50           N  
+ATOM      2  CA  GLU A   1      -7.238  12.272  27.730  1.00 14.00           C  
+ATOM      3  C   GLU A   1      -6.588  11.462  26.584  1.00 13.05           C  
+ATOM      4  O   GLU A   1      -6.290  10.256  26.716  1.00 10.13           O  
+ATOM      5  CB  GLU A   1      -8.754  12.363  27.458  1.00 17.64           C  
+ATOM      6  CG  GLU A   1      -9.405  11.047  27.079  1.00 25.10           C  
+ATOM      7  CD  GLU A   1     -10.811  11.126  26.524  1.00 30.34           C  
+ATOM      8  OE1 GLU A   1     -11.448  12.182  26.830  1.00 32.56           O  
+ATOM      9  OE2 GLU A   1     -11.248  10.178  25.814  1.00 27.95           O  
+ATOM      9  H   GLU A   1      -6.859  14.085  26.929  1.00 27.95           H  
+ATOM      9  HA  GLU A   1      -7.037  11.768  28.687  1.00 27.95           H  
+ATOM      9  HB3 GLU A   1      -8.958  13.124  26.690  1.00 27.95           H  
+ATOM      9  HB2 GLU A   1      -9.269  12.808  28.321  1.00 27.95           H  
+ATOM      9  HG3 GLU A   1      -9.383  10.361  27.938  1.00 27.95           H  
+ATOM      9  HG2 GLU A   1      -8.758  10.502  26.375  1.00 27.95           H  
+ATOM      9  HE2 GLU A   1     -11.759   9.754  25.066  1.00 27.95           H  
+MASTER      331    0    4   31    0    0   17    6 4997    4  180   46          
+END                                                                             

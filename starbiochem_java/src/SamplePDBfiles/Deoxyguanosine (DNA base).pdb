@@ -1,0 +1,186 @@
+HEADER    HYDROLASE                               29-NOV-06   2JAO              
+TITLE     CRYSTAL STRUCTURE OF D12N VARIANT OF MOUSE CYTOSOLIC 5'(3')-          
+TITLE    2 DEOXYRIBONUCLEOTIDASE (CDN) IN COMPLEX WITH DEOXYGUANOSINE           
+TITLE    3 5'-MONOPHOSPHATE                                                     
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: 5'(3')-DEOXYRIBONUCLEOTIDASE;                              
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: CYTOSOLIC TYPE, CYTOSOLIC 5', 3'-PYRIMIDINE                 
+COMPND   5  NUCLEOTIDASE, DEOXY-5'-NUCLEOTIDASE 1, DNT-1, CYTOSOLIC             
+COMPND   6  DEOXYRIBONUCLEOTIDASE;                                              
+COMPND   7 EC: 3.1.3.-;                                                         
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MUTATION: YES                                                        
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: MUS MUSCULUS;                                   
+SOURCE   3 ORGANISM_COMMON: MOUSE;                                              
+SOURCE   4 ORGANISM_TAXID: 10090;                                               
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)PLYSS;                            
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET20B                                     
+KEYWDS    NUCLEOTIDE METABOLISM, NUCLEOTIDE-BINDING, ALPHA-BETA FOLD,           
+KEYWDS   2 METAL-BINDING, HYDROLASE, MAGNESIUM, CYTOSOL                         
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    K.WALLDEN,B.RUZZENENTE,V.BIANCHI,P.NORDLUND                           
+REVDAT   4   23-MAR-10 2JAO    1       VERSN                                    
+REVDAT   3   24-FEB-09 2JAO    1       VERSN                                    
+REVDAT   2   29-APR-08 2JAO    1       JRNL   REMARK                            
+REVDAT   1   20-NOV-07 2JAO    0                                                
+JRNL        AUTH   K.WALLDEN,A.RINALDO-MATTHIS,B.RUZZENENTE,                    
+JRNL        AUTH 2 C.RAMPAZZO,V.BIANCHI,P.NORDLUND                              
+JRNL        TITL   CRYSTAL STRUCTURES OF HUMAN AND MURINE                       
+JRNL        TITL 2 DEOXYRIBONUCLEOTIDASES: INSIGHTS INTO RECOGNITION            
+JRNL        TITL 3 OF SUBSTRATES AND NUCLEOTIDE ANALOGUES.                      
+JRNL        REF    BIOCHEMISTRY                  V.  46 13809 2007              
+JRNL        REFN                   ISSN 0006-2960                               
+JRNL        PMID   17985935                                                     
+JRNL        DOI    10.1021/BI7014794                                            
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.00 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.3.0032                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.00                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 66.08                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 100.0                          
+REMARK   3   NUMBER OF REFLECTIONS             : 18178                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.167                           
+REMARK   3   R VALUE            (WORKING SET) : 0.165                           
+REMARK   3   FREE R VALUE                     : 0.205                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.100                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 985                             
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.00                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.05                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1352                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.1940                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 64                           
+REMARK   3   BIN FREE R VALUE                    : 0.2410                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 1636                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 35                                      
+REMARK   3   SOLVENT ATOMS            : 175                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 28.74                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 0.00000                                              
+REMARK   3    B22 (A**2) : 0.00000                                              
+REMARK   3    B33 (A**2) : 0.00000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.139         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.133         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.091         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 3.224         
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.958                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.933                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  1717 ; 0.018 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  2344 ; 1.560 ; 1.996       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   210 ; 5.970 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):    89 ;33.909 ;23.483       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   297 ;14.635 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):    18 ;19.415 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   253 ; 0.115 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  1327 ; 0.006 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):   623 ; 0.192 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  1114 ; 0.299 ; 0.200       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):   130 ; 0.175 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):     1 ; 0.042 ; 0.200       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    28 ; 0.220 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):    10 ; 0.196 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1055 ; 1.129 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  1638 ; 1.667 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   786 ; 2.414 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   698 ; 3.818 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : MASK                                                 
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.20                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
+REMARK   3  RIDING POSITIONS                                                    
+CRYST1   76.250   76.250   85.760  90.00  90.00 120.00 P 62          6          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.013115  0.007572  0.000000        0.00000                         
+SCALE2      0.000000  0.015144  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.011660        0.00000                         
+HETATM 1644  O3' DGP A1201     -10.296 -26.498  -5.386  1.00 36.12           O  
+HETATM 1645  C1' DGP A1201      -8.244 -24.015  -4.732  1.00 40.87           C  
+HETATM 1646  C2' DGP A1201      -8.262 -25.212  -5.677  1.00 35.78           C  
+HETATM 1647  C3' DGP A1201      -8.964 -26.297  -4.875  1.00 35.33           C  
+HETATM 1648  C4' DGP A1201      -9.055 -25.703  -3.468  1.00 33.99           C  
+HETATM 1649  C5' DGP A1201      -8.311 -26.651  -2.538  1.00 29.13           C  
+HETATM 1650  O4' DGP A1201      -8.137 -24.586  -3.439  1.00 36.46           O  
+HETATM 1651  N2  DGP A1201      -9.169 -18.957  -6.081  1.00 43.31           N  
+HETATM 1652  O6  DGP A1201      -4.570 -19.630  -6.384  1.00 42.30           O  
+HETATM 1653  C6  DGP A1201      -5.696 -20.077  -6.125  1.00 43.10           C  
+HETATM 1654  C5  DGP A1201      -5.899 -21.394  -5.731  1.00 43.14           C  
+HETATM 1655  N7  DGP A1201      -5.067 -22.407  -5.519  1.00 43.16           N  
+HETATM 1656  C8  DGP A1201      -5.791 -23.472  -5.130  1.00 43.31           C  
+HETATM 1657  N9  DGP A1201      -7.086 -23.138  -5.088  1.00 42.49           N  
+HETATM 1658  C4  DGP A1201      -7.196 -21.857  -5.455  1.00 43.33           C  
+HETATM 1659  N3  DGP A1201      -8.276 -21.055  -5.573  1.00 42.61           N  
+HETATM 1660  C2  DGP A1201      -8.118 -19.767  -5.954  1.00 43.67           C  
+HETATM 1661  N1  DGP A1201      -6.828 -19.256  -6.237  1.00 43.67           N  
+HETATM 1662  P  ADGP A1201      -8.023 -27.425  -0.148  0.50 22.38           P  
+HETATM 1663  OP1ADGP A1201      -9.131 -28.569  -0.048  0.50 20.73           O  
+HETATM 1664  OP2ADGP A1201      -8.025 -26.664   1.284  0.50 22.38           O  
+HETATM 1665  O5'ADGP A1201      -8.516 -26.348  -1.188  0.50 22.77           O  
+HETATM 1666  OP3ADGP A1201      -6.720 -28.062  -0.494  0.50 23.51           O  
+MASTER      324    0    3   11    6    0    8    6 1846    1   41   16          
+END                                                                             

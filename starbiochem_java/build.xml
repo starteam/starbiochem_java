@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="StarBiochem" default="build" basedir=".">
+	<taskdef name="apt" classname="org.apache.tools.ant.taskdefs.Apt" />
+	<taskdef name="jreleaseinfo" classname="ch.oscg.jreleaseinfo.anttask.JReleaseInfoAntTask" classpath="../CommonLibrariesBin/ant-tasks/jreleaseinfo-1.2.0.jar" />
+
+	<property name="src" value="${basedir}/src" />
+	<property name="build" value="${basedir}/build" />
+	<property name="preprocess.dir" value="${basedir}/generated_src" />
+
+	<path id="apt.classpath">
+		<pathelement path="${basedir}/bin" />
+		<pathelement path="../java3d/bin" />
+		<pathelement path="lib/jaxrpc.jar" />
+		<pathelement path="lib/Jmol.jar" />
+		<pathelement path="../STAR_SignalSystem/" />
+		<pathelement path="../Plugin-Commons/bin" />
+		<pathelement path="../CommonLibrariesBin/swing/miglayout15-swing.jar" />
+		<pathelement path="../Plugin-Commons/lib/junit-4.1.jar" />
+		<pathelement path="../CommonLibrariesBin/swing/swing-worker.jar" />
+		<pathelement path="../CommonLibrariesBin/microsoft_office/poi/poi-3.2-FINAL-20081019.jar" />
+		<pathelement path="../CommonLibraries/cos-05Nov2002/lib/cos.jar" />
+		<pathelement path="../CommonLibrariesBin/lib/json.jar" />		
+		<pathelement path="../CommonLibrariesBin/jetty/jetty-all-7.2.2.v20101205.jar" />		
+		<pathelement path="../CommonLibrariesBin/jetty/servlet-api-2.5.jar" />
+	</path>
+	
+	
+	<target name="build" depends="apt,compile,jar">
+	</target>
+
+	<target name="clean" depends="">
+		<echo>Force regenerate</echo>
+		<delete>
+			<fileset dir="build">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="generated_src">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="src">
+				<include name="**/*.class"/>
+			</fileset>			
+		</delete>
+	</target>
+	
+	<target name="apt" depends="clean">
+		<echo>Precompiling</echo>
+		
+		<apt srcdir="${src}" debug="on" includes="**/*.java" classpathref="apt.classpath" factory="star.annotations.ProcessorFactory" preprocessdir="${preprocess.dir}" fork="on" target="1.5" source="1.5"/>
+	</target>
+
+	<target name="compile" depends="apt">
+		<echo>Updating build date</echo>
+
+		<jreleaseinfo targetDir="src" packagename="app" classname="Version" project="StarBiochem" version="${version}">
+			<parameter name="Year" value="${year}" />
+			<parameter name="BuildTimestamp" value="${build.time}" />
+		</jreleaseinfo>
+
+		<echo>Compiling</echo>
+		<javac srcdir="${src};${preprocess.dir}" classpathref="apt.classpath" destdir="${build}" debug="on" includes="**/*.java" optimize="on" target="1.5" source="1.5" includeantruntime="false" />
+	</target>
+	
+	<target name="messagesbuilder" >
+		<java classpathref='apt.classpath' classname="xls.MessagesBuilder" ></java>
+		<echo>Working!!</echo>
+	</target>
+
+	<target name="jar" depends="compile">
+		<echo>Creating JAR</echo>
+		<jar destfile="biochem.jar">
+			<fileset dir="build" id="build">
+				<include name="**" />
+				<exclude name=".classpath" />
+				<exclude name=".project" />
+				<exclude name=".settings" />
+			</fileset>
+			<fileset dir="src" id="pref">
+				<include name="**/app/**.properties" />
+				<include name="**/app/**.properties" />
+			</fileset>
+			<fileset dir="src" id="jmolscripts">
+				<include name="**/JmolScripts/**" />
+			</fileset>
+			<fileset dir="bin" id="interfaces">
+				<include name="**/interfaces/**" />
+			</fileset>
+			<fileset dir="../STAR_SignalSystem">
+				<include name="**" />
+				<exclude name=".classpath" />
+				<exclude name=".project" />
+				<exclude name=".settings" />
+				<exclude name="SignalSystem.jar"/>
+			</fileset>
+
+		</jar>
+	</target>
+
+	<target name="buildsamples" depends="jar">
+		<echo>Creating .jmol files from .pdb files</echo>
+		<echo>and Loading .jmol files and .pdb files</echo>
+		
+		<echo> Each of the executables in the samples target should be run before a release of StarBiochem</echo>
+		
+		<!--
+		<echo> Show help message on standard out </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-help"/>
+		</exec>
+		-->
+		
+		<!--
+		<echo> Load 1A3N.pdb </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-load"/>
+			<arg value="../src/SamplePDBfiles/Water.pdb"/>
+		</exec>
+		-->
+
+		<!--
+		<echo> Load 1A3N.jmol </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-load"/>
+			<arg value="../src/SampleJMOLfiles/1A3N.jmol"/>
+		</exec>
+		-->
+
+		<!--
+		<echo> Load all the pdb files in SamplePDBfiles </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-load"/>
+			<arg value="../src/SamplePDBfiles"/>
+		</exec>
+		-->
+
+		<!--
+		<echo> Load all the jmol files in SampleJMOLfiles </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-load"/>
+			<arg value="../src/SampleJMOLfiles"/>
+		</exec>
+		-->
+
+		<!--
+		<echo> Load 1BA4.pdb and create 1BA4.jmol in SampleJMOLfiles </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-create"/>
+			<arg value="../src/SamplePDBfiles/1BA4.pdb"/>
+			<arg value="../src/SampleJMOLfiles"/>
+		</exec>
+		-->
+
+		<echo> Load all the pdb files in SamplePDBfiles and create jmol files from them in SampleJMOLfiles </echo>
+		<exec executable="java" dir="src">
+			<arg value="-Xmx5999m"/>
+			<arg value="-classpath" />
+			<arg value="../biochem.jar:../lib/Jmol.jar" />
+			<arg value="app.StarBiochemMain"/>
+			<arg value="-create"/>
+			<arg value="../src/SamplePDBfiles"/>
+			<arg value="../src/SampleJMOLfiles"/>
+		</exec>
+
+	</target>	
+
+	<target name="packedsamples" depends="buildsamples">
+		<echo>Creating jar from .jmol files </echo>
+		
+		<exec executable="jar">
+			<arg value="cfv0" />
+			<arg value="samples.jar" />
+			<arg value="-C"/>
+			<arg value="src/SampleJMOLfiles"/>
+			<arg value="."/>
+		</exec>
+
+		<exec executable="jar">
+			<arg value="cf" />
+			<arg value="PackedSamples.jar" />
+			<arg value="samples.jar"/>
+		</exec>
+
+	</target>
+
+	<target name="jarsamples" >
+		<echo>Creating jar from .jmol files </echo>
+		
+		<exec executable="jar">
+			<arg value="cfv0" />
+			<arg value="samples.jar" />
+			<arg value="-C"/>
+			<arg value="src/SampleJMOLfiles"/>
+			<arg value="."/>
+		</exec>
+
+		<exec executable="jar">
+			<arg value="cf" />
+			<arg value="PackedSamples.jar" />
+			<arg value="samples.jar"/>
+		</exec>
+
+	</target>
+	
+
+	<target name="publish" depends="jar">
+		<echo>Publishing and signing</echo>
+		<echo>	To publish:
+	Go to menu: Eclipse->Preferences
+		In left menu click on: Ant->Runtime->Properties 
+			Add Property
+				Name: publish_user
+				Value: your root Kerberos Principal
+		</echo>
+
+		<exec executable="kinit">
+			<arg value="${publish_user}" />
+		</exec>
+
+		<exec executable="scp">
+				<arg value="lib/Jmol.jar" />
+				<arg value="${publish_user}@starapp.mit.edu:/home/star/star/media/uploads/star/jar/biochem3/Jmol.jar" />
+			</exec>
+		<exec executable="scp">
+			<arg value="biochem.jar" />
+			<arg value="${publish_user}@starapp.mit.edu:/home/star/star/media/uploads/star/jar/biochem3/biochem.jar" />
+		</exec>
+			<exec executable="scp">
+				<arg value="PackedSamples.jar" />
+				<arg value="${publish_user}@starapp.mit.edu:/home/star/star/media/uploads/star/jar/biochem3/PackedSamples.jar" />
+			</exec>
+		<exec executable="ssh">
+			<arg value="starapp.mit.edu" />
+			<arg value="-l" />
+			<arg value="${publish_user}" />
+			<arg value="/home/star/build/sign_biochem3.sh" />
+		</exec>
+	</target>
+
+</project>

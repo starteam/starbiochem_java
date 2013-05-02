@@ -1,0 +1,157 @@
+HEADER                                            20-NOV-09   3AAM              
+TITLE     CRYSTAL STRUCTURE OF ENDONUCLEASE IV FROM THERMUS THERMOPHILUS HB8    
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: ENDOIV;                                                     
+COMPND   5 EC: 3.1.21.2;                                                        
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_TAXID: 300852;                                              
+SOURCE   4 STRAIN: HB8;                                                         
+SOURCE   5 GENE: TTHA0834;                                                      
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET11A                                    
+KEYWDS    DNA REPAIR, BASE EXCISION REPAIR, BER, TIM BARREL, ENDONUCLEASE,      
+KEYWDS   2 HYDROLASE, STRUCTURAL GENOMICS, NPPSFA, NATIONAL PROJECT ON PROTEIN  
+KEYWDS   3 STRUCTURAL AND FUNCTIONAL ANALYSES, RIKEN STRUCTURAL                 
+KEYWDS   4 GENOMICS/PROTEOMICS INITIATIVE, RSGI                                 
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    R.ASANO,H.ISHIKAWA,S.NAKANE,S.BABA,N.NAKAGAWA,S.KURAMITSU,R.MASUI,    
+AUTHOR   2 RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE (RSGI)               
+REVDAT   1   01-DEC-10 3AAM    0                                                
+JRNL        AUTH   R.ASANO,H.ISHIKAWA,S.NAKANE,S.BABA,N.NAKAGAWA,S.KURAMITSU,   
+JRNL        AUTH 2 R.MASUI                                                      
+JRNL        TITL   CRYSTAL STRUCTURE OF APURINIC/APYRIMIDINIC ENDONUCLEASE IV   
+JRNL        TITL 2 FROM THERMOPHILES                                            
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.58 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.1                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.58                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 29.12                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 242314.000                     
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : 0.0000                         
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 95.3                           
+REMARK   3   NUMBER OF REFLECTIONS             : 28349                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.199                           
+REMARK   3   FREE R VALUE                     : 0.223                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.000                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : 2832                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.004                           
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.58                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.68                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 93.00                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 4073                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2110                       
+REMARK   3   BIN FREE R VALUE                    : 0.2470                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 10.70                        
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 490                          
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.011                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2048                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 6                                       
+REMARK   3   SOLVENT ATOMS            : 223                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 13.82                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -1.15000                                             
+REMARK   3    B22 (A**2) : -1.92000                                             
+REMARK   3    B33 (A**2) : 3.06000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.17000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.17                            
+REMARK   3   ESD FROM SIGMAA              (A) : -0.02                           
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 5.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.20                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.10                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.004                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.20                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.80                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.77                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.110 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 1.640 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 1.910 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 2.760 ; 2.500                
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : FLAT MODEL                                           
+REMARK   3   KSOL        : 0.33                                                 
+REMARK   3   BSOL        : 35.61                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP.PARAM                              
+REMARK   3  PARAMETER FILE  2  : ION.PARAM                                      
+REMARK   3  PARAMETER FILE  3  : WATER.PARAM                                    
+REMARK   3  PARAMETER FILE  4  : PO4.PARAM                                      
+REMARK   3  PARAMETER FILE  5  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : PROTEIN.TOP                                    
+REMARK   3  TOPOLOGY FILE  2   : ION.TOP                                        
+REMARK   3  TOPOLOGY FILE  3   : WATER.TOP                                      
+REMARK   3  TOPOLOGY FILE  4   : PO4.TOP                                        
+REMARK   3  TOPOLOGY FILE  5   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+HET     MN  A 271       1                                                       
+HET    PO4  A 272       5                                                       
+HETNAM      MN MANGANESE (II) ION                                               
+HETNAM     PO4 PHOSPHATE ION                                                    
+CRYST1   36.646   85.273   36.580  90.00 105.37  90.00 P 1 21 1      2          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.027288  0.000000  0.007499        0.00000                         
+SCALE2      0.000000  0.011727  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.028351        0.00000                         
+HETATM 2051  P   PO4 A 272      -3.046   0.909  19.507  1.00 15.71           P  
+HETATM 2052  O   PO4 A 272      -4.596   0.679  19.358  1.00 14.70           O  
+HETATM 2053  O2  PO4 A 272      -2.416   1.176  18.085  1.00 16.88           O  
+HETATM 2054  O3  PO4 A 272      -2.794   2.137  20.430  1.00 17.78           O  
+HETATM 2055  O4  PO4 A 272      -2.390  -0.371  20.154  1.00 16.88           O  
+CONECT 2051 2055                                                                
+CONECT 2051 2055                                                                
+MASTER      269    0    2   11   10    0    5    6 2277    1   12   21          
+END                                                                             

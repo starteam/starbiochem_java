@@ -1,0 +1,184 @@
+HEADER                                            04-JUN-09   3A2S              
+TITLE     CRYSTAL STRUCTURE OF OUTER MEMBRANE PROTEIN PORB FROM NEISSERIA       
+TITLE    2 MENINGITIDIS IN COMPLEX WITH SUCROSE                                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: X;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_TAXID: 487;                                                 
+SOURCE   4 GENE: PORB;                                                          
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21(DE3) DERIVATIVE;                      
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET21BPORB                                
+KEYWDS    BETA BARREL, OUTER MEMBRANE PROTEIN, PORIN, NEISSERIA MENINGITIDIS,   
+KEYWDS   2 CELL MEMBRANE, CELL OUTER MEMBRANE, ION TRANSPORT, MEMBRANE,         
+KEYWDS   3 TRANSMEMBRANE, TRANSPORT PROTEIN, IMMUNE SYSTEM, MEMBRANE PROTEIN    
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    M.TANABE,T.M.IVERSON                                                  
+REVDAT   2   16-JUN-10 3A2S    1       JRNL                                     
+REVDAT   1   07-APR-10 3A2S    0                                                
+JRNL        AUTH   M.TANABE,C.M.NIMIGEAN,T.M.IVERSON                            
+JRNL        TITL   STRUCTURAL BASIS FOR SOLUTE TRANSPORT, NUCLEOTIDE            
+JRNL        TITL 2 REGULATION, AND IMMUNOLOGICAL RECOGNITION OF NEISSERIA       
+JRNL        TITL 3 MENINGITIDIS PORB.                                           
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 107  6811 2010              
+JRNL        REFN                   ISSN 0027-8424                               
+JRNL        PMID   20351243                                                     
+JRNL        DOI    10.1073/PNAS.0912115107                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.20                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 41.38                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 99.5                           
+REMARK   3   NUMBER OF REFLECTIONS             : 19952                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.211                           
+REMARK   3   R VALUE            (WORKING SET) : 0.209                           
+REMARK   3   FREE R VALUE                     : 0.256                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.700                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 975                             
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.20                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.26                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1429                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 96.57                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2130                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 64                           
+REMARK   3   BIN FREE R VALUE                    : 0.3470                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2593                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 35                                      
+REMARK   3   SOLVENT ATOMS            : 168                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 34.70                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 0.96000                                              
+REMARK   3    B22 (A**2) : 0.96000                                              
+REMARK   3    B33 (A**2) : -1.44000                                             
+REMARK   3    B12 (A**2) : 0.48000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.265         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.214         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.146         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 5.552         
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.940                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.922                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  2677 ; 0.010 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  3608 ; 1.228 ; 1.938       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   340 ; 6.550 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):   126 ;37.538 ;24.444       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   431 ;13.716 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):    14 ;16.776 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   383 ; 0.090 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2047 ; 0.004 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  1098 ; 0.196 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  1797 ; 0.298 ; 0.200       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):   215 ; 0.227 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    57 ; 0.150 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):     8 ; 0.111 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1721 ; 0.697 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2636 ; 1.210 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1111 ; 1.594 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   972 ; 2.405 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : MASK                                                 
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.20                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
+REMARK 999 STARBIOCHEM                                                          
+HET    SUC  X 342      23                                                       
+HET    LDA  X 343      12                                                       
+HETNAM     SUC SUCROSE                                                          
+HETNAM     LDA LAURYL DIMETHYLAMINE-N-OXIDE                                     
+CRYST1   82.773   82.773  106.433  90.00  90.00 120.00 P 63          6          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.012081  0.006975  0.000000        0.00000                         
+SCALE2      0.000000  0.013950  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.009396        0.00000                         
+HETATM 2595  C1  SUC X 342      23.723  16.313   9.721  1.00126.20           C  
+HETATM 2596  C2  SUC X 342      24.907  17.264   9.535  1.00126.47           C  
+HETATM 2597  C3  SUC X 342      25.567  17.058   8.170  1.00126.64           C  
+HETATM 2598  C4  SUC X 342      25.818  15.573   7.900  1.00126.71           C  
+HETATM 2599  C5  SUC X 342      24.569  14.742   8.201  1.00126.59           C  
+HETATM 2600  C6  SUC X 342      24.878  13.259   7.989  1.00126.56           C  
+HETATM 2601  O1  SUC X 342      22.716  16.606   8.741  1.00125.37           O  
+HETATM 2602  O2  SUC X 342      24.457  18.616   9.648  1.00126.50           O  
+HETATM 2603  O3  SUC X 342      26.808  17.767   8.127  1.00126.73           O  
+HETATM 2604  O4  SUC X 342      26.193  15.392   6.532  1.00126.83           O  
+HETATM 2605  O5  SUC X 342      24.166  14.958   9.562  1.00126.45           O  
+HETATM 2606  O6  SUC X 342      24.446  12.863   6.684  1.00126.54           O  
+HETATM 2607  C1' SUC X 342      20.910  16.373  10.352  1.00123.64           C  
+HETATM 2608  C2' SUC X 342      21.527  15.870   9.044  1.00124.26           C  
+HETATM 2609  C3' SUC X 342      20.534  15.966   7.884  1.00124.09           C  
+HETATM 2610  C4' SUC X 342      19.880  14.584   7.849  1.00123.95           C  
+HETATM 2611  C5' SUC X 342      20.543  13.835   9.006  1.00124.03           C  
+HETATM 2612  C6' SUC X 342      20.744  12.369   8.618  1.00124.17           C  
+HETATM 2613  O1' SUC X 342      21.695  15.918  11.457  1.00122.06           O  
+HETATM 2614  O2' SUC X 342      21.822  14.472   9.147  1.00124.24           O  
+HETATM 2615  O3' SUC X 342      21.245  16.189   6.664  1.00123.88           O  
+HETATM 2616  O4' SUC X 342      18.478  14.712   8.104  1.00123.81           O  
+HETATM 2617  O6' SUC X 342      22.028  12.207   8.011  1.00124.45           O  
+MASTER      373    0    2    6   20    0    4    6 2796    1   35   28          
+END                                                                             

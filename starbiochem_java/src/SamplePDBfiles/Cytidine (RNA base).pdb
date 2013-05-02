@@ -1,0 +1,164 @@
+HEADER    TRANSFERASE                             12-JUL-10   3AKE              
+TITLE     CRYSTAL STRUCTURE OF CMP KINASE IN COMPLEX WITH CMP FROM THERMUS      
+TITLE    2 THERMOPHILUS HB8                                                     
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CYTIDYLATE KINASE;                                         
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: CK, CYTIDINE MONOPHOSPHATE KINASE, CMP KINASE;              
+COMPND   5 EC: 2.7.4.14;                                                        
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: THERMUS THERMOPHILUS;                           
+SOURCE   3 ORGANISM_TAXID: 300852;                                              
+SOURCE   4 STRAIN: HB8;                                                         
+SOURCE   5 GENE: TTHA0458;                                                      
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET-11A                                   
+KEYWDS    CMP KINASE, CMP COMPLEX, OPEN CONFORMATION, NUCLEOTIDE METABOLISM,    
+KEYWDS   2 TRANSFERASE                                                          
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    R.MEGA,N.NAKAGAWA,S.KURAMITSU,R.MASUI                                 
+REVDAT   1   06-JUL-11 3AKE    0                                                
+JRNL        AUTH   R.MEGA,N.NAKAGAWA,S.KURAMITSU,R.MASUI                        
+JRNL        TITL   THE CRYSTAL STRUCTURE OF THE TERTIARY COMPLEX OF CMP KINASE  
+JRNL        TITL 2 WITH A PHOSPHORYL GROUP ACCEPTOR AND A DONOR FROM THERMUS    
+JRNL        TITL 3 THERMOPHILUS HB8                                             
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.2                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.50                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 38.56                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1548291.400                    
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : 0.0000                         
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 99.7                           
+REMARK   3   NUMBER OF REFLECTIONS             : 34495                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.217                           
+REMARK   3   FREE R VALUE                     : 0.241                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.000                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : 3834                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.50                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.59                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.60                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2330                       
+REMARK   3   BIN FREE R VALUE                    : 0.2650                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 10.50                        
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 667                          
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.010                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 1577                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 22                                      
+REMARK   3   SOLVENT ATOMS            : 134                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 16.50                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 19.60                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 3.03000                                              
+REMARK   3    B22 (A**2) : 3.03000                                              
+REMARK   3    B33 (A**2) : -6.07000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.18                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.08                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 5.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.21                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.09                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.017                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.90                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.70                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.32                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : FLAT MODEL                                           
+REMARK   3   KSOL        : 0.45                                                 
+REMARK   3   BSOL        : 55.72                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP.PARAM                              
+REMARK   3  PARAMETER FILE  2  : CMP.PARAM                                      
+REMARK   3  PARAMETER FILE  4  : WATER.PARAM                                    
+REMARK   3  PARAMETER FILE  5  : MG2+.PARAM                                     
+REMARK   3  PARAMETER FILE  6  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : PROTEIN.TOP                                    
+REMARK   3  TOPOLOGY FILE  2   : CMP.TOP                                        
+REMARK   3  TOPOLOGY FILE  4   : WATER.TOP                                      
+REMARK   3  TOPOLOGY FILE  5   : MG2+.TOP                                       
+REMARK   3  TOPOLOGY FILE  6   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED                   
+CRYST1   61.746   61.746  111.332  90.00  90.00 120.00 P 65          6          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.016195  0.009350  0.000000        0.00000                         
+SCALE2      0.000000  0.018701  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.008982        0.00000                         
+HETATM 1579  O3P C5P A 209      34.710  11.807   1.423  1.00 24.43           O  
+HETATM 1580  P   C5P A 209      33.631  11.860   2.788  1.00 21.68           P  
+HETATM 1581  O1P C5P A 209      32.645  10.835   2.292  1.00 26.76           O  
+HETATM 1582  O2P C5P A 209      33.456  13.669   2.716  1.00 29.31           O  
+HETATM 1583  O5' C5P A 209      34.376  11.193   4.023  1.00 15.28           O  
+HETATM 1584  C5' C5P A 209      33.957  11.147   5.493  1.00 17.87           C  
+HETATM 1585  C4' C5P A 209      34.685  11.571   6.550  1.00 14.33           C  
+HETATM 1586  O4' C5P A 209      35.881  10.838   6.368  1.00 12.49           O  
+HETATM 1587  C3' C5P A 209      35.015  12.926   6.156  1.00 15.14           C  
+HETATM 1588  O3' C5P A 209      34.024  13.822   6.519  1.00 22.30           O  
+HETATM 1589  C2' C5P A 209      36.101  13.023   7.051  1.00 12.81           C  
+HETATM 1590  O2' C5P A 209      35.765  13.072   8.392  1.00 18.17           O  
+HETATM 1591  C1' C5P A 209      36.825  11.736   6.782  1.00 12.19           C  
+HETATM 1592  N1  C5P A 209      37.860  11.714   5.769  1.00 12.37           N  
+HETATM 1593  C2  C5P A 209      39.089  11.992   6.139  1.00 12.54           C  
+HETATM 1594  N3  C5P A 209      40.112  11.858   5.285  1.00 11.04           N  
+HETATM 1595  C4  C5P A 209      39.871  11.403   4.058  1.00 11.81           C  
+HETATM 1596  C5  C5P A 209      38.596  11.096   3.631  1.00 11.52           C  
+HETATM 1597  C6  C5P A 209      37.555  11.256   4.540  1.00 12.35           C  
+HETATM 1598  O2  C5P A 209      39.296  12.409   7.253  1.00 15.38           O  
+HETATM 1599  N4  C5P A 209      41.041  11.181   3.167  1.00 13.74           N  
+MASTER      285    0    2    9    8    0    5    6 1733    1   21   16          
+END                                                                             

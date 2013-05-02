@@ -1,0 +1,145 @@
+HEADER                                            08-APR-11   3RGS              
+TITLE     STRUCTURAL AND KINETIC ANALYSIS OF THE BEEF LIVER CATALASE WITH THE   
+TITLE    2 AMMONIA AS A LIGAND                                                  
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A, B, C, D;                                                   
+COMPND   4 FRAGMENT: UNP RESIDUES 4-502;                                        
+COMPND   5 EC: 1.11.1.6                                                         
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9913                                                 
+KEYWDS    HEME PROTEIN, OXIDOREDUCATASE, NH3 BINDING, OXIDOREDUCTASE            
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    N.PURWAR,M.SCHMIDT                                                    
+REVDAT   2   25-MAY-11 3RGS    1       JRNL                                     
+REVDAT   1   11-MAY-11 3RGS    0                                                
+JRNL        AUTH   N.PURWAR,J.M.MCGARRY,J.KOSTERA,A.A.PACHECO,M.SCHMIDT         
+JRNL        TITL   INTERACTION OF NITRIC OXIDE WITH CATALASE: STRUCTURAL AND    
+JRNL        TITL 2 KINETIC ANALYSIS.                                            
+JRNL        REF    BIOCHEMISTRY                               2011              
+JRNL        REFN                   ISSN 0006-2960                               
+JRNL        PMID   21524057                                                     
+JRNL        DOI    10.1021/BI200130R                                            
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.99 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.3                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.99                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 57.38                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 5004883.560                    
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : 0.0000                         
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 92.4                           
+REMARK   3   NUMBER OF REFLECTIONS             : 171515                         
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.161                           
+REMARK   3   FREE R VALUE                     : 0.198                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.900                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 8405                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.002                           
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.99                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.11                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 91.80                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 26674                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.1910                       
+REMARK   3   BIN FREE R VALUE                    : 0.2320                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 4.80                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 1333                         
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.006                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 16068                                   
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 176                                     
+REMARK   3   SOLVENT ATOMS            : 2266                                    
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 14.20                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 18.70                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 2.64000                                              
+REMARK   3    B22 (A**2) : -3.91000                                             
+REMARK   3    B33 (A**2) : 1.27000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.17                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.14                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 4.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.22                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.18                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.006                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.30                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 23.10                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.92                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.110 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 1.610 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 1.890 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 2.610 ; 2.500                
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : FLAT MODEL                                           
+REMARK   3   KSOL        : 0.40                                                 
+REMARK   3   BSOL        : 69.88                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NONE                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP.PARAM                              
+REMARK   3  PARAMETER FILE  2  : HEME_NAD.PARAM                                 
+REMARK   3  PARAMETER FILE  3  : WATER_REP.PARAM                                
+REMARK   3  PARAMETER FILE  4  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : PROTEIN.TOP                                    
+REMARK   3  TOPOLOGY FILE  2   : HEME_NAD.TOP                                   
+REMARK   3  TOPOLOGY FILE  3   : WATER.TOP                                      
+REMARK   3  TOPOLOGY FILE  4   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED                   
+REMARK 999 STARBIOCHEM                                                          
+DBREF  3RGS A    3   501  UNP    P00432   CATA_BOVIN       4    502             
+HET    NH3  A 502       1                                                       
+HETNAM     NH3 AMMONIA                                                          
+FORMUL   6  NH3    4(H3 N)                                                      
+SITE     6 AC3 29 ARG B 364  NH3 B 502  HOH B 552  HOH B 669                    
+CRYST1   83.480  140.720  229.520  90.00  90.00  90.00 P 21 21 21   16          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.011979  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.007106  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.004357        0.00000                         
+HETATM16124  N   NH3 A 502       0.0    0.0     0.0     0.82 11.57           N  
+HETATM16124  H   NH3 A 503       0.056  1.013   0.174   0.82 11.57           H  
+HETATM16124  H   NH3 A 504       0.649 -0.245  -0.719   0.82 11.57           H  
+HETATM16124  H   NH3 A 505       0.223 -0.5     0.836   0.82 11.57           H  
+MASTER      513    0    8   76   52    0   34    618510    4  184  156          
+END                                                                             

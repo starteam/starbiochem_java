@@ -1,0 +1,332 @@
+HEADER                                            14-APR-05   1ZDU              
+TITLE     THE CRYSTAL STRUCTURE OF HUMAN LIVER RECEPTOR HOMOLOGUE-1             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CHEMICAL NAME IS:                                           
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: ALPHA-1-FETOPROTEIN TRANSCRIPTION FACTOR,                   
+COMPND   5 HEPATOCYTIC TRANSCRIPTION FACTOR, B1-BINDING FACTOR, HB1F,           
+COMPND   6 CYP7A PROMOTER BINDING FACTOR;                                       
+COMPND   7 ENGINEERED: YES;                                                     
+COMPND   8 MOL_ID: 2;                                                           
+COMPND   9 MOLECULE:  PHOSPHATIDYLGLYCEROL-PHOSPHOGLYCEROL                      
+COMPND  10 CHAIN: P, Q;                                                         
+COMPND  11 FRAGMENT: RESIDUES 741-751;                                          
+COMPND  12 SYNONYM: NCOA-2, TRANSCRIPTIONAL INTERMEDIARY FACTOR 2;              
+COMPND  13 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)RIL;                              
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR: PET;                                       
+SOURCE  10 MOL_ID: 2;                                                           
+SOURCE  11 SYNTHETIC: YES;                                                      
+SOURCE  12 OTHER_DETAILS: THIS SEQUENCE OCCURS NATURALLY IN HUMANS.             
+KEYWDS    LIVER RECEPTOR HOMOLOGUE-1, LRH-1, NUCLEAR RECEPTOR,                  
+KEYWDS   2 PHOSPHOLIPID, PHOSPHATIDYLETHANOLAMINE, TRANSCRIPTION                
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    W.WANG,C.ZHANG,A.MARIMUTHU,H.I.KRUPKA,M.TABRIZIZAD,                   
+AUTHOR   2 R.SHELLOE,U.MEHRA,K.ENG,H.NGUYEN,C.SETTACHATGUL,B.POWELL,            
+AUTHOR   3 M.V.MILBURN,B.L.WEST                                                 
+REVDAT   3   24-FEB-09 1ZDU    1       VERSN                                    
+REVDAT   2   01-JUN-05 1ZDU    1       JRNL                                     
+REVDAT   1   24-MAY-05 1ZDU    0                                                
+JRNL        AUTH   W.WANG,C.ZHANG,A.MARIMUTHU,H.I.KRUPKA,M.TABRIZIZAD,          
+JRNL        AUTH 2 R.SHELLOE,U.MEHRA,K.ENG,H.NGUYEN,C.SETTACHATGUL,             
+JRNL        AUTH 3 B.POWELL,M.V.MILBURN,B.L.WEST                                
+JRNL        TITL   THE CRYSTAL STRUCTURES OF HUMAN STEROIDOGENIC                
+JRNL        TITL 2 FACTOR-1 AND LIVER RECEPTOR HOMOLOGUE-1                      
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 102  7505 2005              
+JRNL        REFN                   ISSN 0027-8424                               
+JRNL        PMID   15897460                                                     
+JRNL        DOI    10.1073/PNAS.0409482102                                      
+REMARK   1                                                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.1.25                                        
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.50                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 50.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 99.4                           
+REMARK   3   NUMBER OF REFLECTIONS             : 10899                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.242                           
+REMARK   3   R VALUE            (WORKING SET) : 0.239                           
+REMARK   3   FREE R VALUE                     : 0.281                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.200                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 595                             
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.50                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.56                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 777                          
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.3310                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 32                           
+REMARK   3   BIN FREE R VALUE                    : 0.3490                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2069                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 66                                      
+REMARK   3   SOLVENT ATOMS            : 35                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 65.50                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 32.21                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -1.28000                                             
+REMARK   3    B22 (A**2) : -2.04000                                             
+REMARK   3    B33 (A**2) : 3.32000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.603         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.320         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.272         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 12.874        
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.937                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.924                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  2167 ; 0.008 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  2021 ; 0.002 ; 0.020       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  2913 ; 1.034 ; 1.999       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  4722 ; 0.722 ; 3.000       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   250 ; 5.261 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   328 ; 0.053 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2298 ; 0.003 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):   405 ; 0.001 ; 0.020       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):   507 ; 0.179 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  2284 ; 0.192 ; 0.200       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  1324 ; 0.087 ; 0.200       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):    39 ; 0.164 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    10 ; 0.153 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):    53 ; 0.136 ; 0.200       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):     4 ; 0.372 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1268 ; 0.203 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2037 ; 0.396 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   899 ; 0.729 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   876 ; 1.213 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : 4                                          
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 1                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 5                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   A   253        A   284                          
+REMARK   3    RESIDUE RANGE :   A   292        A   492                          
+REMARK   3    RESIDUE RANGE :   A   101        A   101                          
+REMARK   3    RESIDUE RANGE :   A   103        A   103                          
+REMARK   3    RESIDUE RANGE :   A     1        A    26                          
+REMARK   3    ORIGIN FOR THE GROUP (A):   6.5570  28.9030   9.4730              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.2196 T22:   0.2025                                     
+REMARK   3      T33:   0.1271 T12:  -0.1156                                     
+REMARK   3      T13:   0.0150 T23:  -0.0164                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   4.1042 L22:   4.8604                                     
+REMARK   3      L33:   3.3226 L12:  -1.0404                                     
+REMARK   3      L13:  -1.2019 L23:   2.1420                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   0.0552 S12:   0.4310 S13:   0.2096                       
+REMARK   3      S21:  -0.2874 S22:   0.1482 S23:   0.0435                       
+REMARK   3      S31:  -0.1607 S32:   0.1279 S33:  -0.2034                       
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 2                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 1                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   A    27        A    30                          
+REMARK   3    ORIGIN FOR THE GROUP (A):   1.8830  13.9510  10.3950              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.3899 T22:   0.3846                                     
+REMARK   3      T33:   0.3917 T12:  -0.0069                                     
+REMARK   3      T13:  -0.0080 T23:  -0.0028                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:  13.3866 L22:   8.4652                                     
+REMARK   3      L33:   2.3797 L12:  16.5096                                     
+REMARK   3      L13:  20.9657 L23:   6.5128                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:  -0.2123 S12:   3.4380 S13:  -2.4695                       
+REMARK   3      S21:   0.4630 S22:   0.0037 S23:   0.3701                       
+REMARK   3      S31:  -0.4595 S32:   1.3261 S33:   0.2086                       
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 3                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 2                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   P   741        P   751                          
+REMARK   3    RESIDUE RANGE :   P    31        P    33                          
+REMARK   3    ORIGIN FOR THE GROUP (A):  25.2440  24.0090  10.7780              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.3312 T22:   0.3836                                     
+REMARK   3      T33:   0.1885 T12:  -0.1248                                     
+REMARK   3      T13:   0.0035 T23:  -0.2482                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:  27.0359 L22:  12.8898                                     
+REMARK   3      L33:   3.0488 L12: -11.5308                                     
+REMARK   3      L13:   6.9418 L23:   9.7576                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:  -0.1796 S12:  -0.7811 S13:   0.0328                       
+REMARK   3      S21:   0.0981 S22:   0.6418 S23:  -0.9020                       
+REMARK   3      S31:   0.3258 S32:   0.3699 S33:  -0.4622                       
+REMARK   3                                                                      
+REMARK   3   TLS GROUP : 4                                                      
+REMARK   3    NUMBER OF COMPONENTS GROUP : 2                                    
+REMARK   3    COMPONENTS        C SSSEQI   TO  C SSSEQI                         
+REMARK   3    RESIDUE RANGE :   Q   742        Q   751                          
+REMARK   3    RESIDUE RANGE :   Q    34        Q    34                          
+REMARK   3    ORIGIN FOR THE GROUP (A):   2.0970  14.6320  -9.7540              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   0.3641 T22:   0.7886                                     
+REMARK   3      T33:   0.3224 T12:   0.0231                                     
+REMARK   3      T13:  -0.0287 T23:  -0.3737                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:  12.2712 L22:  36.0604                                     
+REMARK   3      L33:  29.0357 L12:   8.7367                                     
+REMARK   3      L13:  -1.5182 L23:  -6.3934                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   0.2279 S12:  -0.5890 S13:   0.3514                       
+REMARK   3      S21:  -0.2928 S22:  -0.1347 S23:  -0.9119                       
+REMARK   3      S31:  -1.2806 S32:   0.5486 S33:  -0.0932                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.40                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
+REMARK   3  RIDING POSITIONS                                                    
+REMARK 999 STARBIOCHEM                                                          
+SEQRES   1 A  245  SER PRO ALA SER ILE PRO HIS LEU ILE LEU GLU LEU LEU          
+SEQRES   2 A  245  LYS CYS GLU PRO ASP GLU PRO GLN VAL GLN ALA LYS ILE          
+SEQRES   3 A  245  MET ALA TYR LEU GLN GLN GLU GLN ALA ASN ARG SER LYS          
+SEQRES   4 A  245  HIS GLU LYS LEU SER THR PHE GLY LEU MET CYS LYS MET          
+SEQRES   5 A  245  ALA ASP GLN THR LEU PHE SER ILE VAL GLU TRP ALA ARG          
+SEQRES   6 A  245  SER SER ILE PHE PHE ARG GLU LEU LYS VAL ASP ASP GLN          
+SEQRES   7 A  245  MET LYS LEU LEU GLN ASN CYS TRP SER GLU LEU LEU ILE          
+SEQRES   8 A  245  LEU ASP HIS ILE TYR ARG GLN VAL VAL HIS GLY LYS GLU          
+SEQRES   9 A  245  GLY SER ILE PHE LEU VAL THR GLY GLN GLN VAL ASP TYR          
+SEQRES  10 A  245  SER ILE ILE ALA SER GLN ALA GLY ALA THR LEU ASN ASN          
+SEQRES  11 A  245  LEU MET SER HIS ALA GLN GLU LEU VAL ALA LYS LEU ARG          
+SEQRES  12 A  245  SER LEU GLN PHE ASP GLN ARG GLU PHE VAL CYS LEU LYS          
+SEQRES  13 A  245  PHE LEU VAL LEU PHE SER LEU ASP VAL LYS ASN LEU GLU          
+SEQRES  14 A  245  ASN PHE GLN LEU VAL GLU GLY VAL GLN GLU GLN VAL ASN          
+SEQRES  15 A  245  ALA ALA LEU LEU ASP TYR THR MET CYS ASN TYR PRO GLN          
+SEQRES  16 A  245  GLN THR GLU LYS PHE GLY GLN LEU LEU LEU ARG LEU PRO          
+SEQRES  17 A  245  GLU ILE ARG ALA ILE SER MET GLN ALA GLU GLU TYR LEU          
+SEQRES  18 A  245  TYR TYR LYS HIS LEU ASN GLY ASP VAL PRO TYR ASN ASN          
+SEQRES  19 A  245  LEU LEU ILE GLU MET LEU HIS ALA LYS ARG ALA                  
+SEQRES   1 P   11  GLU ASN ALA LEU LEU ARG TYR LEU LEU ASP LYS                  
+SEQRES   1 Q   11  GLU ASN ALA LEU LEU ARG TYR LEU LEU ASP LYS                  
+HET    P3A  A 101      58                                                       
+HETNAM     P3A PHOSPHATIDYLGLYCEROL-PHOSPHOGLYCEROL                             
+FORMUL   4  P3A    C41 H78 O15 P2 2-                                            
+CRYST1   61.010   67.000   78.210  90.00  90.00  90.00 P 21 21 21    8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.016391  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.014925  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.012786        0.00000                         
+HETATM 2073  O43 P3A A 101      -2.683  13.046   2.647  1.00 36.59           O  
+HETATM 2074  C42 P3A A 101      -1.973  12.439   1.856  1.00 36.77           C  
+HETATM 2075  C44 P3A A 101      -1.315  13.116   0.665  1.00 36.61           C  
+HETATM 2076  C45 P3A A 101      -1.556  14.627   0.599  1.00 36.00           C  
+HETATM 2077  C46 P3A A 101      -0.460  15.423   1.301  1.00 35.69           C  
+HETATM 2078  C47 P3A A 101      -0.890  16.866   1.574  1.00 35.51           C  
+HETATM 2079  C48 P3A A 101       0.176  17.655   2.340  1.00 35.35           C  
+HETATM 2080  C49 P3A A 101      -0.440  18.673   3.301  1.00 35.77           C  
+HETATM 2081  C50 P3A A 101       0.569  19.206   4.325  1.00 35.36           C  
+HETATM 2082  C51 P3A A 101       1.309  20.425   3.796  1.00 35.59           C  
+HETATM 2083  C52 P3A A 101       2.761  20.483   4.283  1.00 36.70           C  
+HETATM 2084  C53 P3A A 101       2.893  20.954   5.734  1.00 36.61           C  
+HETATM 2085  C54 P3A A 101       4.043  21.942   5.875  1.00 36.48           C  
+HETATM 2086  C55 P3A A 101       4.143  22.465   7.304  1.00 37.07           C  
+HETATM 2087  C56 P3A A 101       4.833  21.460   8.196  1.00 37.56           C  
+HETATM 2088  C57 P3A A 101       5.276  21.837   9.396  1.00 38.55           C  
+HETATM 2089  C58 P3A A 101       5.976  20.859  10.319  1.00 38.57           C  
+HETATM 2090  O41 P3A A 101      -1.752  11.011   2.077  1.00 36.88           O  
+HETATM 2091  C40 P3A A 101      -1.735  10.466   3.404  1.00 35.73           C  
+HETATM 2092  C38 P3A A 101      -0.454  10.840   4.147  1.00 34.28           C  
+HETATM 2093  C39 P3A A 101      -0.291   9.981   5.398  1.00 33.72           C  
+HETATM 2094  O19 P3A A 101      -1.199  10.305   6.457  1.00 33.32           O  
+HETATM 2095  P16 P3A A 101      -1.011   9.490   7.839  1.00 33.40           P  
+HETATM 2096  O17 P3A A 101       0.404   9.747   8.301  1.00 32.80           O  
+HETATM 2097  O18 P3A A 101      -1.470   8.066   7.620  1.00 34.54           O  
+HETATM 2098  O15 P3A A 101      -2.015  10.119   8.930  1.00 34.72           O  
+HETATM 2099  C14 P3A A 101      -1.556  10.312  10.276  1.00 35.34           C  
+HETATM 2100  C6  P3A A 101      -2.191   9.386  11.302  1.00 35.84           C  
+HETATM 2101  O7  P3A A 101      -3.227  10.071  11.968  1.00 35.93           O  
+HETATM 2102  C8  P3A A 101      -1.182   8.964  12.355  1.00 36.16           C  
+HETATM 2103  O9  P3A A 101      -1.615   7.735  12.931  1.00 37.73           O  
+HETATM 2104  P10 P3A A 101      -2.873   7.663  13.933  1.00 39.45           P  
+HETATM 2105  O12 P3A A 101      -4.116   7.289  13.150  1.00 40.20           O  
+HETATM 2106  O13 P3A A 101      -2.848   8.894  14.792  1.00 38.10           O  
+HETATM 2107  O11 P3A A 101      -2.556   6.354  14.835  1.00 39.26           O  
+HETATM 2108  C1  P3A A 101      -2.997   6.260  16.190  1.00 37.98           C  
+HETATM 2109  C2  P3A A 101      -4.455   5.829  16.286  1.00 37.45           C  
+HETATM 2110  C4  P3A A 101      -5.119   6.606  17.415  1.00 37.20           C  
+HETATM 2111  O5  P3A A 101      -5.436   7.911  16.978  1.00 36.01           O  
+HETATM 2112  O3  P3A A 101      -4.558   4.439  16.569  1.00 36.89           O  
+HETATM 2113  O37 P3A A 101      -0.493  12.216   4.510  1.00 34.58           O  
+HETATM 2114  C21 P3A A 101       0.800  12.858   4.656  1.00 34.98           C  
+HETATM 2115  O20 P3A A 101       1.663  12.665   3.821  1.00 35.77           O  
+HETATM 2116  C22 P3A A 101       1.064  13.763   5.837  1.00 35.70           C  
+HETATM 2117  C23 P3A A 101       1.171  15.234   5.433  1.00 36.25           C  
+HETATM 2118  C24 P3A A 101       2.597  15.624   5.056  1.00 36.54           C  
+HETATM 2119  C25 P3A A 101       3.562  15.418   6.214  1.00 36.61           C  
+HETATM 2120  C26 P3A A 101       4.644  16.488   6.265  1.00 37.07           C  
+HETATM 2121  C27 P3A A 101       5.594  16.193   7.426  1.00 37.44           C  
+HETATM 2122  C28 P3A A 101       6.185  17.459   8.035  1.00 37.93           C  
+HETATM 2123  C29 P3A A 101       5.940  17.528   9.527  1.00 38.45           C  
+HETATM 2124  C30 P3A A 101       4.730  17.746  10.054  1.00 39.11           C  
+HETATM 2125  C31 P3A A 101       3.494  17.929   9.200  1.00 38.75           C  
+HETATM 2126  C32 P3A A 101       2.382  18.600  10.002  1.00 37.88           C  
+HETATM 2127  C33 P3A A 101       1.194  18.898   9.087  1.00 37.14           C  
+HETATM 2128  C34 P3A A 101       0.081  19.598   9.852  1.00 36.55           C  
+HETATM 2129  C35 P3A A 101       0.284  21.107   9.890  1.00 35.37           C  
+HETATM 2130  C36 P3A A 101      -0.314  21.757   8.667  1.00 34.63           C  
+MASTER      388    0    2   14    2    0    7    6 2170    3   66   21          
+END                                                                             

@@ -1,0 +1,152 @@
+HEADER                                            13-FEB-96   1TGH              
+TITLE     TATA BINDING PROTEIN (TBP)/DNA COMPLEX                                
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: DNA                                                        
+COMPND   3                                                                      
+COMPND   4 CHAIN: B, C;                                                         
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE:                                                            
+COMPND   8 CHAIN: A;                                                            
+COMPND   9 SYNONYM: HTBP;                                                       
+COMPND  10 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 MOL_ID: 2;                                                           
+SOURCE   4 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   5 ORGANISM_COMMON:                                                     
+SOURCE   6 ORGANISM_TAXID: 9606;                                                
+SOURCE   7 GENE: TBP;                                                           
+SOURCE   8 EXPRESSION_SYSTEM: ESCHERICHIA COLI K12;                             
+SOURCE   9 EXPRESSION_SYSTEM_TAXID: 83333;                                      
+SOURCE  10 EXPRESSION_SYSTEM_STRAIN: K12;                                       
+SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PET21D                                    
+KEYWDS    TRANSCRIPTION FACTOR, DNA BINDING PROTEIN, DNA,                       
+KEYWDS   2 TRANSCRIPTION/DNA COMPLEX                                            
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    Z.S.JUO,R.E.DICKERSON                                                 
+REVDAT   3   24-FEB-09 1TGH    1       VERSN                                    
+REVDAT   2   01-APR-03 1TGH    1       JRNL                                     
+REVDAT   1   01-AUG-96 1TGH    0                                                
+JRNL        AUTH   Z.S.JUO,T.K.CHIU,P.M.LEIBERMAN,I.BAIKALOV,A.J.BERK,          
+JRNL        AUTH 2 R.E.DICKERSON                                                
+JRNL        TITL   HOW PROTEINS RECOGNIZE THE TATA BOX.                         
+JRNL        REF    J.MOL.BIOL.                   V. 261   239 1996              
+JRNL        REFN                   ISSN 0022-2836                               
+JRNL        PMID   8757291                                                      
+JRNL        DOI    10.1006/JMBI.1996.0456                                       
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   J.L.KIM,S.K.BURLEY                                           
+REMARK   1  TITL   1.9 A RESOLUTION REFINED STRUCTURE OF TBP                    
+REMARK   1  TITL 2 RECOGNIZING THE MINOR GROOVE OF TATAAAAG                     
+REMARK   1  REF    NAT.STRUCT.BIOL.              V.   1   638 1994              
+REMARK   1  REFN                   ISSN 1072-8368                               
+REMARK   1 REFERENCE 2                                                          
+REMARK   1  AUTH   J.L.KIM,D.B.NIKOLOV,S.K.BURLEY                               
+REMARK   1  TITL   CO-CRYSTAL STRUCTURE OF TBP RECOGNIZING THE MINOR            
+REMARK   1  TITL 2 GROOVE OF A TATA ELEMENT                                     
+REMARK   1  REF    NATURE                        V. 365   520 1993              
+REMARK   1  REFN                   ISSN 0028-0836                               
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.90 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : X-PLOR 3.1                                           
+REMARK   3   AUTHORS     : BRUNGER                                              
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.90                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 8.00                           
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : NULL                           
+REMARK   3   NUMBER OF REFLECTIONS             : 9013                           
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : NULL                            
+REMARK   3   FREE R VALUE TEST SET SELECTION  : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.214                           
+REMARK   3   FREE R VALUE                     : 0.294                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.000                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : NULL                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : NULL                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : NULL                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : NULL                         
+REMARK   3   BIN FREE R VALUE                    : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL                         
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 1767                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 534                                     
+REMARK   3   HETEROGEN ATOMS          : 0                                       
+REMARK   3   SOLVENT ATOMS            : 54                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : NULL                            
+REMARK   3   ESD FROM SIGMAA              (A) : NULL                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : NULL                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.012                           
+REMARK   3   BOND ANGLES            (DEGREES) : 2.00                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.50                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.49                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+REMARK 999 IS_WATER_ON                                                         
+CRYST1   66.965   67.397   86.226  90.00  90.00  90.00 P 21 21 21    8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.014933  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.014837  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.011597        0.00000                         
+HETATM 2305  O   HOH B 403      35.814  22.576  -6.627  1.00 38.91           O  
+HETATM 2306  H1  HOH B 403      36.335  22.340  -7.403  1.00  0.00           H  
+HETATM 2307  H2  HOH B 403      36.304  22.173  -5.911  1.00  0.00           H  
+MASTER      285    0    0    4   10    0    0    6 2355    3    0   17          
+END                                                                             

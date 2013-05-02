@@ -1,0 +1,99 @@
+HEADER                                            29-APR-10   3MSF              
+TITLE     CRYSTAL STRUCTURE OF THERMOLYSIN IN COMPLEX WITH UREA                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE:                                                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: THERMOSTABLE NEUTRAL PROTEINASE;                            
+COMPND   5 EC: 3.4.24.27                                                        
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_TAXID: 1427                                                 
+KEYWDS    PROTEASE, HYDROLASE, FRAGMENT SOAKING, METALLOPROTEASE, METAL-        
+KEYWDS   2 BINDING, SECRETED, ZYMOGEN, UREA, FRAGMENT BASED LEAD DISCOVERY      
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    J.BEHNEN,A.HEINE,G.KLEBE                                              
+REVDAT   1   11-MAY-11 3MSF    0                                                
+JRNL        AUTH   J.BEHNEN,H.KRUEGER,T.RITSCHEL,G.NEUDERT,A.HEINE,G.KLEBE      
+JRNL        TITL   EXPERIMENTAL ACTIVE SITE MAPPING AS A STARTING POINT TO      
+JRNL        TITL 2 FRAGMENT-BASED LEAD DISCOVERY                                
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.09 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : SHELXL-97                                            
+REMARK   3   AUTHORS     : G.M.SHELDRICK                                        
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.09                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 10.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 95.0                           
+REMARK   3   CROSS-VALIDATION METHOD           : FREE R                         
+REMARK   3   FREE R VALUE TEST SET SELECTION   : RANDOM                         
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT (NO CUTOFF).                         
+REMARK   3   R VALUE   (WORKING + TEST SET, NO CUTOFF) : 0.183                  
+REMARK   3   R VALUE          (WORKING SET, NO CUTOFF) : 0.183                  
+REMARK   3   FREE R VALUE                  (NO CUTOFF) : 0.248                  
+REMARK   3   FREE R VALUE TEST SET SIZE (%, NO CUTOFF) : NULL                   
+REMARK   3   FREE R VALUE TEST SET COUNT   (NO CUTOFF) : 1846                   
+REMARK   3   TOTAL NUMBER OF REFLECTIONS   (NO CUTOFF) : 18714                  
+REMARK   3                                                                      
+REMARK   3  FIT/AGREEMENT OF MODEL FOR DATA WITH F>4SIG(F).                     
+REMARK   3   R VALUE   (WORKING + TEST SET, F>4SIG(F)) : 0.174                  
+REMARK   3   R VALUE          (WORKING SET, F>4SIG(F)) : NULL                   
+REMARK   3   FREE R VALUE                  (F>4SIG(F)) : NULL                   
+REMARK   3   FREE R VALUE TEST SET SIZE (%, F>4SIG(F)) : NULL                   
+REMARK   3   FREE R VALUE TEST SET COUNT   (F>4SIG(F)) : NULL                   
+REMARK   3   TOTAL NUMBER OF REFLECTIONS   (F>4SIG(F)) : 16268                  
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS      : 2412                                          
+REMARK   3   NUCLEIC ACID ATOMS : 0                                             
+REMARK   3   HETEROGEN ATOMS    : 27                                            
+REMARK   3   SOLVENT ATOMS      : 163                                           
+REMARK   3                                                                      
+REMARK   3  MODEL REFINEMENT.                                                   
+REMARK   3   OCCUPANCY SUM OF NON-HYDROGEN ATOMS      : 2594.02                 
+REMARK   3   OCCUPANCY SUM OF HYDROGEN ATOMS          : 2238.00                 
+REMARK   3   NUMBER OF DISCRETELY DISORDERED RESIDUES : 0                       
+REMARK   3   NUMBER OF LEAST-SQUARES PARAMETERS       : 10446                   
+REMARK   3   NUMBER OF RESTRAINTS                     : 10143                   
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM RESTRAINT TARGET VALUES.                        
+REMARK   3   BOND LENGTHS                         (A) : 0.005                   
+REMARK   3   ANGLE DISTANCES                      (A) : 0.020                   
+REMARK   3   SIMILAR DISTANCES (NO TARGET VALUES) (A) : 0.000                   
+REMARK   3   DISTANCES FROM RESTRAINT PLANES      (A) : 0.023                   
+REMARK   3   ZERO CHIRAL VOLUMES               (A**3) : 0.025                   
+REMARK   3   NON-ZERO CHIRAL VOLUMES           (A**3) : 0.031                   
+REMARK   3   ANTI-BUMPING DISTANCE RESTRAINTS     (A) : 0.009                   
+REMARK   3   RIGID-BOND ADP COMPONENTS         (A**2) : 0.000                   
+REMARK   3   SIMILAR ADP COMPONENTS            (A**2) : 0.067                   
+REMARK   3   APPROXIMATELY ISOTROPIC ADPS      (A**2) : 0.000                   
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED: NULL                                                  
+REMARK   3                                                                      
+REMARK   3  STEREOCHEMISTRY TARGET VALUES : ENGH AND HUBER                      
+REMARK   3   SPECIAL CASE: NULL                                                 
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK 999 STARBIOCHEM                                                          
+HET    URE  A 601       4                                                       
+HETNAM     URE UREA                                                             
+CRYST1   92.614   92.614  128.701  90.00  90.00 120.00 P 61 2 2     12          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.010798  0.006234  0.000000        0.00000                         
+SCALE2      0.000000  0.012468  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.007770        0.00000                         
+HETATM 2419  C   URE A 601      37.185  42.153  -2.536  0.87 47.82           C  
+HETATM 2420  O   URE A 601      37.996  41.672  -3.369  0.87 33.22           O  
+HETATM 2421  N1  URE A 601      36.069  41.520  -2.144  0.87 35.83           N  
+HETATM 2422  N2  URE A 601      37.384  43.364  -1.970  0.87 35.61           N  
+MASTER      396    0    9   12   17    0   16    6 2602    1   61   25          
+END                                                                             

@@ -1,0 +1,224 @@
+HEADER                                            18-MAY-06   2H26              
+TITLE     HUMAN CD1B IN COMPLEX WITH ENDOGENOUS PHOSPHATIDYLCHOLINE             
+TITLE    2 AND SPACER                                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CHEMICAL NAME IS:                                          
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: EXTRACELLULAR DOMAIN OF CD1B ANTIGEN;                      
+COMPND   5 SYNONYM: CD1B ANTIGEN;                                               
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MUTATION: YES;                                                       
+COMPND   8 MOL_ID: 2;                                                           
+COMPND   9 MOLECULE: TETRACOSYL PALMITATE                                       
+COMPND  10 CHAIN: B;                                                            
+COMPND  11 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC:                                                 
+SOURCE   3 ORGANISM_COMMON:                                                     
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 GENE: CD1B;                                                          
+SOURCE   6 EXPRESSION_SYSTEM: MUS MUSCULUS;                                     
+SOURCE   7 EXPRESSION_SYSTEM_COMMON: HOUSE MOUSE;                               
+SOURCE   8 EXPRESSION_SYSTEM_TAXID: 10090;                                      
+SOURCE   9 EXPRESSION_SYSTEM_STRAIN: J558 CELL;                                 
+SOURCE  10 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  11 EXPRESSION_SYSTEM_PLASMID: BCMGSNEO;                                 
+SOURCE  12 MOL_ID: 2;                                                           
+SOURCE  13 ORGANISM_SCIENTIFIC:                                                 
+SOURCE  14 ORGANISM_COMMON:                                                     
+SOURCE  15 ORGANISM_TAXID: 9606;                                                
+SOURCE  16 GENE: B2M;                                                           
+SOURCE  17 EXPRESSION_SYSTEM: MUS MUSCULUS;                                     
+SOURCE  18 EXPRESSION_SYSTEM_COMMON: HOUSE MOUSE;                               
+SOURCE  19 EXPRESSION_SYSTEM_TAXID: 10090;                                      
+SOURCE  20 EXPRESSION_SYSTEM_STRAIN: J558 CELL                                  
+KEYWDS    LIPID, ENDOGENOUS LIGAND, PHOSPHATIDYLCHOLINE, MHC, ANTIGEN           
+KEYWDS   2 PRESENTATION, GLYCOPROTEIN, IMMUNE SYSTEM                            
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    L.F.GARCIA-ALLES,L.MAVEYRAUD,A.T.VALLINA,V.GUILLET,L.MOUREY           
+REVDAT   3   24-FEB-09 2H26    1       VERSN                                    
+REVDAT   2   22-AUG-06 2H26    1       JRNL                                     
+REVDAT   1   04-JUL-06 2H26    0                                                
+JRNL        AUTH   L.F.GARCIA-ALLES,K.VERSLUIS,L.MAVEYRAUD,                     
+JRNL        AUTH 2 A.T.VALLINA,S.SANSANO,N.F.BELLO,H.J.GOBER,                   
+JRNL        AUTH 3 V.GUILLET,H.DE LA SALLE,G.PUZO,L.MORI,A.J.HECK,              
+JRNL        AUTH 4 G.DE LIBERO,L.MOUREY                                         
+JRNL        TITL   ENDOGENOUS PHOSPHATIDYLCHOLINE AND A LONG SPACER             
+JRNL        TITL 2 LIGAND STABILIZE THE LIPID-BINDING GROOVE OF CD1B.           
+JRNL        REF    EMBO J.                       V.  25  3684 2006              
+JRNL        REFN                   ISSN 0261-4189                               
+JRNL        PMID   16874306                                                     
+JRNL        DOI    10.1038/SJ.EMBOJ.7601244                                     
+REMARK   1                                                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.80 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.80                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 20.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 96.0                           
+REMARK   3   NUMBER OF REFLECTIONS             : 41074                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.207                           
+REMARK   3   R VALUE            (WORKING SET) : 0.205                           
+REMARK   3   FREE R VALUE                     : 0.241                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 2181                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.80                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.85                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 2516                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 81.60                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2520                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 123                          
+REMARK   3   BIN FREE R VALUE                    : 0.3000                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 3000                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 152                                     
+REMARK   3   SOLVENT ATOMS            : 271                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 27.00                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 33.61                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 1.57000                                              
+REMARK   3    B22 (A**2) : 0.32000                                              
+REMARK   3    B33 (A**2) : -1.89000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.135         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.129         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.090         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 2.867         
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.953                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.944                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  3246 ; 0.016 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  4401 ; 1.608 ; 1.977       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   383 ; 6.221 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):   146 ;34.634 ;23.904       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   467 ;12.778 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):    17 ;21.193 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   464 ; 0.113 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2447 ; 0.007 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  1361 ; 0.202 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  2185 ; 0.313 ; 0.200       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):   268 ; 0.154 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    44 ; 0.184 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):    14 ; 0.278 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1973 ; 1.150 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3058 ; 1.755 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1482 ; 2.686 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1343 ; 4.076 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.20                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
+REMARK   3  RIDING POSITIONS                                                    
+REMARK 999 STARBIOCHEM                                                          
+HET    6UL  A 312      42                                                       
+HETNAM     6UL TETRACOSYL PALMITATE                                             
+ORMUL   8  6UL    C40 H80 O2                                                   
+SITE     4 AC7 13 6UL A 312                                                     
+CRYST1   39.828  103.898  114.829  90.00  90.00  90.00 P 21 21 21    4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.025108  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.009625  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.008709        0.00000                         
+HETATM 3103  CBP 6UL A 312     -12.401 -38.022  44.560  1.00 61.86           C  
+HETATM 3104  CBN 6UL A 312     -13.922 -37.885  44.716  1.00 61.77           C  
+HETATM 3105  CAX 6UL A 312     -14.454 -36.612  44.035  1.00 61.09           C  
+HETATM 3106  CAY 6UL A 312     -15.948 -36.758  43.697  1.00 59.76           C  
+HETATM 3107  CAZ 6UL A 312     -16.474 -35.590  42.864  1.00 59.37           C  
+HETATM 3108  CBA 6UL A 312     -17.122 -36.087  41.562  1.00 58.19           C  
+HETATM 3109  CBB 6UL A 312     -17.356 -34.941  40.565  1.00 57.16           C  
+HETATM 3110  CBC 6UL A 312     -17.222 -35.426  39.113  1.00 55.14           C  
+HETATM 3111  CBD 6UL A 312     -18.522 -35.267  38.305  1.00 52.52           C  
+HETATM 3112  CBE 6UL A 312     -18.317 -35.732  36.859  1.00 49.09           C  
+HETATM 3113  CBF 6UL A 312     -19.346 -35.103  35.914  1.00 46.96           C  
+HETATM 3114  CBG 6UL A 312     -19.112 -35.494  34.452  1.00 44.97           C  
+HETATM 3115  CBH 6UL A 312     -18.862 -34.281  33.535  1.00 45.12           C  
+HETATM 3116  CBI 6UL A 312     -19.960 -33.208  33.642  1.00 45.79           C  
+HETATM 3117  CBJ 6UL A 312     -19.532 -31.903  32.989  1.00 43.80           C  
+HETATM 3118  CBK 6UL A 312     -18.810 -30.969  33.979  1.00 44.11           C  
+HETATM 3119  CBL 6UL A 312     -18.215 -29.822  33.182  1.00 46.98           C  
+HETATM 3120  CBM 6UL A 312     -18.148 -28.481  33.904  1.00 47.89           C  
+HETATM 3121  CAW 6UL A 312     -17.460 -28.567  35.248  1.00 48.98           C  
+HETATM 3122  CAV 6UL A 312     -16.717 -27.274  35.523  1.00 51.25           C  
+HETATM 3123  CAU 6UL A 312     -15.547 -27.559  36.450  1.00 52.32           C  
+HETATM 3124  CAT 6UL A 312     -15.144 -26.286  37.169  1.00 53.57           C  
+HETATM 3125  CAS 6UL A 312     -13.882 -25.728  36.552  1.00 55.60           C  
+HETATM 3126  CAR 6UL A 312     -13.449 -24.487  37.315  1.00 55.76           C  
+HETATM 3127  OAQ 6UL A 312     -12.286 -24.809  38.099  1.00 58.09           O  
+HETATM 3128  CAP 6UL A 312     -11.186 -24.048  37.799  1.00 56.56           C  
+HETATM 3129  OBO 6UL A 312     -11.285 -22.868  37.484  1.00 58.06           O  
+HETATM 3130  CAO 6UL A 312      -9.818 -24.687  37.861  1.00 55.91           C  
+HETATM 3131  CAN 6UL A 312      -8.751 -23.621  37.895  1.00 53.74           C  
+HETATM 3132  CAM 6UL A 312      -7.649 -23.953  36.908  1.00 53.45           C  
+HETATM 3133  CAL 6UL A 312      -6.582 -24.875  37.521  1.00 51.28           C  
+HETATM 3134  CAK 6UL A 312      -5.497 -25.044  36.488  1.00 48.34           C  
+HETATM 3135  CAJ 6UL A 312      -4.147 -25.141  37.151  1.00 47.71           C  
+HETATM 3136  CAI 6UL A 312      -3.133 -24.274  36.447  1.00 45.24           C  
+HETATM 3137  CAH 6UL A 312      -2.138 -23.811  37.487  1.00 45.91           C  
+HETATM 3138  CAG 6UL A 312      -1.290 -22.642  37.010  1.00 46.21           C  
+HETATM 3139  CAF 6UL A 312      -1.131 -21.624  38.163  1.00 49.49           C  
+HETATM 3140  CAE 6UL A 312      -0.359 -22.225  39.339  1.00 51.43           C  
+HETATM 3141  CAD 6UL A 312      -0.059 -21.178  40.403  1.00 53.43           C  
+HETATM 3142  CAC 6UL A 312       1.119 -21.673  41.243  1.00 54.98           C  
+HETATM 3143  CAB 6UL A 312       1.072 -21.128  42.672  1.00 55.26           C  
+HETATM 3144  CAA 6UL A 312       1.644 -19.702  42.733  1.00 55.47           C  
+MASTER      390    0    9    7   32    0   19    6 3423    2  168   30          
+END                                                                             

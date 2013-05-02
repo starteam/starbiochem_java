@@ -1,0 +1,156 @@
+HEADER    OXIDOREDUCTASE                          15-NOV-10   3PLN              
+TITLE     CRYSTAL STRUCTURE OF KLEBSIELLA PNEUMONIAE UDP-GLUCOSE 6-DEHYDROGENASE
+TITLE    2 COMPLEXED WITH UDP-GLUCOSE                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: UDP-GLUCOSE 6-DEHYDROGENASE;                               
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 EC: 1.1.1.22;                                                        
+COMPND   5 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: KLEBSIELLA PNEUMONIAE;                          
+SOURCE   3 ORGANISM_TAXID: 484021;                                              
+SOURCE   4 STRAIN: NTUH-K2044;                                                  
+SOURCE   5 GENE: KP1_3701, UGD;                                                 
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET28A                                    
+KEYWDS    ROSSMANN FOLD, DEHYDROGENASE, OXIDOREDUCTASE                          
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    Y.-Y.CHEN,T.-P.KO,C.-H.LIN,W.-H.CHEN,A.H.-J.WANG                      
+REVDAT   1   28-SEP-11 3PLN    0                                                
+JRNL        AUTH   Y.Y.CHEN,T.P.KO,C.H.LIN,W.H.CHEN,A.H.WANG                    
+JRNL        TITL   CONFORMATIONAL CHANGE UPON PRODUCT BINDING TO KLEBSIELLA     
+JRNL        TITL 2 PNEUMONIAE UDP-GLUCOSE DEHYDROGENASE: A POSSIBLE INHIBITION  
+JRNL        TITL 3 MECHANISM FOR THE KEY ENZYME IN POLYMYXIN RESISTANCE.        
+JRNL        REF    J.STRUCT.BIOL.                V. 175   300 2011              
+JRNL        REFN                   ISSN 1047-8477                               
+JRNL        PMID   21536136                                                     
+JRNL        DOI    10.1016/J.JSB.2011.04.010                                    
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.1                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.50                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 30.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 95.9                           
+REMARK   3   NUMBER OF REFLECTIONS             : 70228                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.164                           
+REMARK   3   FREE R VALUE                     : 0.190                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : NULL                            
+REMARK   3   FREE R VALUE TEST SET COUNT      : 3776                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.50                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.55                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 85.12                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2355                       
+REMARK   3   BIN FREE R VALUE                    : 0.2567                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 361                          
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.021                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2994                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 21                                      
+REMARK   3   SOLVENT ATOMS            : 664                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.15                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.12                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 5.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.17                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.13                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.020                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.80                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : NULL                                                 
+REMARK   3   KSOL        : NULL                                                 
+REMARK   3   BSOL        : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+CRYST1  106.940   63.217   79.152  90.00 114.09  90.00 C 1 2 1       4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.009351  0.000000  0.004181        0.00000                         
+SCALE2      0.000000  0.015819  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.013839        0.00000                         
+HETATM 2996  N1  U5P A 901      27.004  19.301  44.054  1.00 13.95           N  
+HETATM 2997  C2  U5P A 901      26.243  19.643  42.931  1.00 14.84           C  
+HETATM 2998  N3  U5P A 901      26.186  18.759  41.851  1.00 14.42           N  
+HETATM 2999  C4  U5P A 901      26.886  17.550  41.895  1.00 16.10           C  
+HETATM 3000  C5  U5P A 901      27.655  17.221  43.006  1.00 15.65           C  
+HETATM 3001  C6  U5P A 901      27.716  18.098  44.083  1.00 16.28           C  
+HETATM 3002  O2  U5P A 901      25.659  20.723  42.893  1.00 14.38           O  
+HETATM 3003  O4  U5P A 901      26.805  16.770  40.948  1.00 17.19           O  
+HETATM 3004  C1' U5P A 901      27.010  20.190  45.236  1.00 15.75           C  
+HETATM 3005  C2' U5P A 901      26.328  19.487  46.407  1.00 16.26           C  
+HETATM 3006  O2' U5P A 901      24.915  19.705  46.319  1.00 16.74           O  
+HETATM 3007  C3' U5P A 901      26.980  20.211  47.582  1.00 18.25           C  
+HETATM 3008  C4' U5P A 901      28.421  20.394  47.103  1.00 17.05           C  
+HETATM 3009  O3' U5P A 901      26.383  21.496  47.789  1.00 18.59           O  
+HETATM 3010  O4' U5P A 901      28.372  20.364  45.661  1.00 17.05           O  
+HETATM 3011  C5' U5P A 901      29.334  19.272  47.607  1.00 20.81           C  
+HETATM 3012  O5' U5P A 901      28.721  18.007  47.332  1.00 20.45           O  
+HETATM 3013  P   U5P A 901      29.208  16.669  48.083  1.00 21.23           P  
+HETATM 3014  O1P U5P A 901      29.067  17.020  49.648  1.00 24.30           O  
+HETATM 3015  O2P U5P A 901      30.634  16.463  47.745  1.00 21.36           O  
+HETATM 3016  O3P U5P A 901      28.220  15.638  47.695  1.00 23.87           O  
+MASTER      440    0    1   15   16    0    5    6 3679    1   21   33          
+END                                                                             
