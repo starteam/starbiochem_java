@@ -2,9 +2,7 @@
 
 <project name="StarBiochem" default="build" basedir=".">
 	<taskdef name="apt" classname="org.apache.tools.ant.taskdefs.Apt" />
-	<taskdef name="jreleaseinfo" classname="ch.oscg.jreleaseinfo.anttask.JReleaseInfoAntTask" classpath="../CommonLibrariesBin/ant-tasks/jreleaseinfo-1.2.0.jar" />
-
-	<property name="src" value="${basedir}/src" />
+		<property name="src" value="${basedir}/src" />
 	<property name="build" value="${basedir}/build" />
 	<property name="preprocess.dir" value="${basedir}/generated_src" />
 
@@ -52,11 +50,6 @@
 
 	<target name="compile" depends="apt">
 		<echo>Updating build date</echo>
-
-		<jreleaseinfo targetDir="src" packagename="app" classname="Version" project="StarBiochem" version="${version}">
-			<parameter name="Year" value="${year}" />
-			<parameter name="BuildTimestamp" value="${build.time}" />
-		</jreleaseinfo>
 
 		<echo>Compiling</echo>
 		<javac srcdir="${src};${preprocess.dir}" classpathref="apt.classpath" destdir="${build}" debug="on" includes="**/*.java" optimize="on" target="1.5" source="1.5" includeantruntime="false" />
