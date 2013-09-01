@@ -11,7 +11,7 @@
 		<pathelement path="../java3d/bin" />
 		<pathelement path="lib/jaxrpc.jar" />
 		<pathelement path="lib/Jmol.jar" />
-		<pathelement path="../STAR_SignalSystem/" />
+		<pathelement path="../star_signalsystem_java/bin/" />
 		<pathelement path="../Plugin-Commons/bin" />
 		<pathelement path="../CommonLibrariesBin/swing/miglayout15-swing.jar" />
 		<pathelement path="../Plugin-Commons/lib/junit-4.1.jar" />
@@ -30,7 +30,7 @@
 	<target name="clean" depends="">
 		<echo>Force regenerate</echo>
 		<delete>
-			<fileset dir="build">
+		    <fileset dir="build">
 				<include name="**/*.class"/>
 			</fileset>
 			<fileset dir="generated_src">
@@ -52,14 +52,25 @@
 		<echo>Updating build date</echo>
 
 		<echo>Compiling</echo>
+		<mkdir dir="${build}"/>
 		<javac srcdir="${src};${preprocess.dir}" classpathref="apt.classpath" destdir="${build}" debug="on" includes="**/*.java" optimize="on" target="1.5" source="1.5" includeantruntime="false" />
 	</target>
 	
-	<target name="messagesbuilder" >
-		<java classpathref='apt.classpath' classname="xls.MessagesBuilder" ></java>
-		<echo>Working!!</echo>
+	<target name="messagesbuilder">
+	    <echo>Running messagesbuilder!</echo>
+		<java jar="./xls2i18.jar" fork="true" failonerror="true">
+			<arg value = "src/StarBiochem_Properties_Kreyol.xls"/>
+			<arg value = "src/app/messages.properties"/>	
+		</java>
+		<echo>Kreyol Properies Built</echo>
+		
+		<java jar="./xls2i18.jar" fork="true" failonerror="true">
+			<arg value = "src/StarBiochem_Properties_English.xls"/>
+			<arg value = "src/app/messages.properties"/>	
+		</java>
+		<echo>English Properies Built</echo>		
 	</target>
-
+	
 	<target name="jar" depends="compile">
 		<echo>Creating JAR</echo>
 		<jar destfile="biochem.jar">
@@ -79,7 +90,7 @@
 			<fileset dir="bin" id="interfaces">
 				<include name="**/interfaces/**" />
 			</fileset>
-			<fileset dir="../STAR_SignalSystem">
+			<fileset dir="../star_signalsystem_java/bin">
 				<include name="**" />
 				<exclude name=".classpath" />
 				<exclude name=".project" />
